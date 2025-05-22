@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=5.0, user-scalable=yes">
+    <title>页面标题 - 示例网站</title>
+    <meta name="description" content="这是一个示例网站的描述内容，用于 SEO 优化。">
+    <meta name="keywords" content="示例, 网站, HTML, 优化">
+    <meta name="renderer" content="webkit">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="format-detection" content="telephone=no">
+    <link rel="icon" href="yjs.ico">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/layui-src/dist/css/layui.css">
+    <!--[if lt IE 9]>
+    <script src="https://cdn.staticfile.org/html5shiv/r29/html5.min.js"></script>
+    <script src="https://cdn.staticfile.org/respond.js/1.4.2/respond.min.js"></script>
+    <![endif]-->
+    <style>
+        body {
+            margin: 0;
+            padding: 0;
+            min-height: 100vh;
+        }
+
+        .layui-container {
+            padding: 0;
+        }
+
+        .img-container {
+            list-style: none;
+            padding: 0;
+            margin: 0;
+        }
+
+        .img-container img {
+            max-width: 100%;
+            height: auto;
+            display: block;
+        }
+
+        .flex-container {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            height: 100vh;
+        }
+
+        footer {
+            position: fixed;
+            bottom: 5px;
+            right: 5px;
+            z-index: 1000;
+            display: flex;
+            flex-direction: column;
+            align-items: flex-end;
+            gap: 10px;
+        }
+
+        footer a {
+            display: block;
+            box-shadow: 0 0 10px #fff;
+            width: 60px;
+            height: 60px;
+            border-radius: 50%;
+            overflow: hidden;
+        }
+
+        footer a img {
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+        }
+    </style>
+</head>
+<body>
+    <div class="layui-container">
+        <div class="main-body">
+            <ul class="img-container">
+                <?php if (isset($c_img) && !empty($c_img) && $c_img != '404'): ?>
+                    <li><img src="<?=base_url('statics/yjs/material/'.$c_img.'1.jpg')?>" alt=""></li>
+                    <li><img src="<?=base_url('statics/yjs/material/'.$c_img.'2.jpg')?>" alt=""></li>
+                    <li><img src="<?=base_url('statics/yjs/material/'.$c_img.'3.jpg')?>" alt=""></li>
+                <?php else: ?>
+                    <li class="flex-container">
+                        <img src="<?=base_url('statics/yjs/material/404.png')?>" alt="404">
+                    </li>
+                <?php endif; ?>
+            </ul>
+        </div>
+    </div>
+
+    <footer>
+        <a href="<?=base_url('yjs/contact')?>">
+            <img src="<?=base_url('statics/yjs/material/tel.png')?>" alt="联系">
+        </a>
+        <a href="<?=base_url('yjs/cate')?>">
+            <img src="<?=base_url('statics/yjs/material/back.png')?>" alt="返回">
+        </a>
+    </footer>
+
+    <script src="<?=base_url('statics/plugins/layuimini/lib/jquery-3.4.1/jquery-3.4.1.min.js')?>"></script>
+    <script src="<?=base_url('statics/plugins/layuimini/lib/layui/layui.js')?>"></script>
+    <script>
+    layui.use(['jquery'], function() {
+        const $ = layui.jquery;
+        
+        // 防抖函数
+        function debounce(func, wait) {
+            let timeout;
+            return function() {
+                const context = this;
+                const args = arguments;
+                clearTimeout(timeout);
+                timeout = setTimeout(() => func.apply(context, args), wait);
+            };
+        }
+
+        // 更新footer图标大小
+        const updateFooterIcon = debounce(() => {
+            const scale = 1 / (window.visualViewport?.scale || 1);
+            $('footer a').css({
+                'transform': `scale(${scale})`,
+                'transform-origin': 'bottom right'
+            });
+        }, 100);
+
+        // 初始化
+        updateFooterIcon();
+
+        // 事件监听
+        if (window.visualViewport) {
+            window.visualViewport.addEventListener('resize', updateFooterIcon);
+            window.visualViewport.addEventListener('scroll', updateFooterIcon);
+        } else {
+            window.addEventListener('resize', updateFooterIcon);
+        }
+    });
+    </script>
+</body>
+</html>
+

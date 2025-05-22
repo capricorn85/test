@@ -1,0 +1,93 @@
+{
+  "id": "4752399",
+  "name": "基层两化",
+  "font_family": "iconfont",
+  "css_prefix_text": "icon-",
+  "description": "",
+  "glyphs": [
+    {
+      "icon_id": "6632689",
+      "name": "大数据看板",
+      "font_class": "dashujukanban",
+      "unicode": "e601",
+      "unicode_decimal": 58881
+    },
+    {
+      "icon_id": "8441586",
+      "name": "系统管理",
+      "font_class": "ziyuanxhdpi",
+      "unicode": "e654",
+      "unicode_decimal": 58964
+    },
+    {
+      "icon_id": "9418785",
+      "name": "数据风控预警平台",
+      "font_class": "shujufengkongyujingpingtai",
+      "unicode": "e63b",
+      "unicode_decimal": 58939
+    },
+    {
+      "icon_id": "11738289",
+      "name": "预警平台",
+      "font_class": "yujingpingtai",
+      "unicode": "e653",
+      "unicode_decimal": 58963
+    },
+    {
+      "icon_id": "16612724",
+      "name": "档案管理",
+      "font_class": "danganguanli",
+      "unicode": "e622",
+      "unicode_decimal": 58914
+    },
+    {
+      "icon_id": "17686920",
+      "name": "档案管理",
+      "font_class": "danganguanli1",
+      "unicode": "e61f",
+      "unicode_decimal": 58911
+    },
+    {
+      "icon_id": "22607108",
+      "name": "非现场监管-点击@2x",
+      "font_class": "a-feixianchangjianguan-dianji2x",
+      "unicode": "e66f",
+      "unicode_decimal": 58991
+    },
+    {
+      "icon_id": "24161442",
+      "name": "库房管理-档案管理",
+      "font_class": "kufangguanli-danganguanli",
+      "unicode": "e63c",
+      "unicode_decimal": 58940
+    },
+    {
+      "icon_id": "26234838",
+      "name": "数据库",
+      "font_class": "a-19-shujuku",
+      "unicode": "e642",
+      "unicode_decimal": 58946
+    },
+    {
+      "icon_id": "26438514",
+      "name": "大数据看板",
+      "font_class": "dashujukanban1",
+      "unicode": "e6b6",
+      "unicode_decimal": 59062
+    },
+    {
+      "icon_id": "26555551",
+      "name": "明厨亮灶",
+      "font_class": "mingchuliangzao",
+      "unicode": "e9a6",
+      "unicode_decimal": 59814
+    },
+    {
+      "icon_id": "27304699",
+      "name": "明厨亮灶菜单icon_明厨亮灶菜单icon-物联网",
+      "font_class": "mingchuliangzaocaidanicon_mingchuliangzaocaidanicon-wulianwang",
+      "unicode": "e60a",
+      "unicode_decimal": 58890
+    }
+  ]
+}

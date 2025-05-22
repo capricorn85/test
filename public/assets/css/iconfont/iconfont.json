@@ -1,0 +1,268 @@
+{
+  "id": "654082",
+  "name": "教育",
+  "font_family": "iconfont",
+  "css_prefix_text": "icon-",
+  "description": "",
+  "glyphs": [
+    {
+      "icon_id": "444403",
+      "name": "链接",
+      "font_class": "lianjie",
+      "unicode": "e662",
+      "unicode_decimal": 58978
+    },
+    {
+      "icon_id": "1956996",
+      "name": "公告",
+      "font_class": "gonggao1",
+      "unicode": "e610",
+      "unicode_decimal": 58896
+    },
+    {
+      "icon_id": "8881420",
+      "name": "产教融合",
+      "font_class": "chanjiaoronghe",
+      "unicode": "e6e1",
+      "unicode_decimal": 59105
+    },
+    {
+      "icon_id": "2158327",
+      "name": "新闻",
+      "font_class": "xinwen",
+      "unicode": "e661",
+      "unicode_decimal": 58977
+    },
+    {
+      "icon_id": "14434924",
+      "name": "公告",
+      "font_class": "gonggao",
+      "unicode": "e63d",
+      "unicode_decimal": 58941
+    },
+    {
+      "icon_id": "14435230",
+      "name": "历史",
+      "font_class": "lishi",
+      "unicode": "e64e",
+      "unicode_decimal": 58958
+    },
+    {
+      "icon_id": "14435421",
+      "name": "统计",
+      "font_class": "tongji",
+      "unicode": "e657",
+      "unicode_decimal": 58967
+    },
+    {
+      "icon_id": "14435485",
+      "name": "办理",
+      "font_class": "banli",
+      "unicode": "e659",
+      "unicode_decimal": 58969
+    },
+    {
+      "icon_id": "14435542",
+      "name": "账单",
+      "font_class": "zhangdan",
+      "unicode": "e65a",
+      "unicode_decimal": 58970
+    },
+    {
+      "icon_id": "14435801",
+      "name": "项目",
+      "font_class": "xiangmu",
+      "unicode": "e65f",
+      "unicode_decimal": 58975
+    },
+    {
+      "icon_id": "14435891",
+      "name": "组织架构",
+      "font_class": "zuzhijiagou",
+      "unicode": "e663",
+      "unicode_decimal": 58979
+    },
+    {
+      "icon_id": "3309741",
+      "name": "主页",
+      "font_class": "zhuye",
+      "unicode": "e605",
+      "unicode_decimal": 58885
+    },
+    {
+      "icon_id": "3963436",
+      "name": "搜索",
+      "font_class": "sousuo",
+      "unicode": "e64b",
+      "unicode_decimal": 58955
+    },
+    {
+      "icon_id": "1384",
+      "name": "qq",
+      "font_class": "qq",
+      "unicode": "e600",
+      "unicode_decimal": 58880
+    },
+    {
+      "icon_id": "85681",
+      "name": "00廉政教育",
+      "font_class": "00lianzhengjiaoyu",
+      "unicode": "e607",
+      "unicode_decimal": 58887
+    },
+    {
+      "icon_id": "247191",
+      "name": "教育",
+      "font_class": "jiaoyu",
+      "unicode": "e60a",
+      "unicode_decimal": 58890
+    },
+    {
+      "icon_id": "435977",
+      "name": "微博",
+      "font_class": "weibo",
+      "unicode": "e7e4",
+      "unicode_decimal": 59364
+    },
+    {
+      "icon_id": "840781",
+      "name": "微信",
+      "font_class": "weixin",
+      "unicode": "e660",
+      "unicode_decimal": 58976
+    },
+    {
+      "icon_id": "855476",
+      "name": "海豚YY-bottom-教育",
+      "font_class": "haitunyybottomjiaoyu",
+      "unicode": "e604",
+      "unicode_decimal": 58884
+    },
+    {
+      "icon_id": "1226234",
+      "name": "主题教育",
+      "font_class": "zhutijiaoyu",
+      "unicode": "e60b",
+      "unicode_decimal": 58891
+    },
+    {
+      "icon_id": "1403482",
+      "name": "健康教育",
+      "font_class": "jiankangjiaoyu",
+      "unicode": "e8cf",
+      "unicode_decimal": 59599
+    },
+    {
+      "icon_id": "1547163",
+      "name": "icon_教育",
+      "font_class": "icon_jiaoyu",
+      "unicode": "e642",
+      "unicode_decimal": 58946
+    },
+    {
+      "icon_id": "1624268",
+      "name": "教育",
+      "font_class": "jiaoyu1",
+      "unicode": "e68d",
+      "unicode_decimal": 59021
+    },
+    {
+      "icon_id": "1729838",
+      "name": "继续教育",
+      "font_class": "jixujiaoyu",
+      "unicode": "e618",
+      "unicode_decimal": 58904
+    },
+    {
+      "icon_id": "1840564",
+      "name": "icon-教育院线",
+      "font_class": "icon-jiaoyuyuanxian",
+      "unicode": "e602",
+      "unicode_decimal": 58882
+    },
+    {
+      "icon_id": "2383863",
+      "name": "了解晓教育",
+      "font_class": "liaojiexiaojiaoyu",
+      "unicode": "e61f",
+      "unicode_decimal": 58911
+    },
+    {
+      "icon_id": "2414601",
+      "name": "教育",
+      "font_class": "jiaoyu2",
+      "unicode": "e6b3",
+      "unicode_decimal": 59059
+    },
+    {
+      "icon_id": "2518492",
+      "name": "教育",
+      "font_class": "jiaoyu3",
+      "unicode": "e678",
+      "unicode_decimal": 59000
+    },
+    {
+      "icon_id": "2553380",
+      "name": "教育培训",
+      "font_class": "jiaoyupeixun",
+      "unicode": "e73c",
+      "unicode_decimal": 59196
+    },
+    {
+      "icon_id": "2813691",
+      "name": "宣传教育",
+      "font_class": "education",
+      "unicode": "e60c",
+      "unicode_decimal": 58892
+    },
+    {
+      "icon_id": "3604268",
+      "name": "终身教育",
+      "font_class": "zhongshenjiaoyu",
+      "unicode": "e671",
+      "unicode_decimal": 58993
+    },
+    {
+      "icon_id": "3643702",
+      "name": "国家数字教育",
+      "font_class": "guojiashuzijiaoyu",
+      "unicode": "e74e",
+      "unicode_decimal": 59214
+    },
+    {
+      "icon_id": "3759866",
+      "name": "成人教育",
+      "font_class": "chengrenjiaoyu",
+      "unicode": "e609",
+      "unicode_decimal": 58889
+    },
+    {
+      "icon_id": "3765368",
+      "name": "已上线教育局-01",
+      "font_class": "yishangxianjiaoyuju-",
+      "unicode": "e619",
+      "unicode_decimal": 58905
+    },
+    {
+      "icon_id": "3856346",
+      "name": "谈话教育",
+      "font_class": "tanhuajiaoyu",
+      "unicode": "e60f",
+      "unicode_decimal": 58895
+    },
+    {
+      "icon_id": "4124251",
+      "name": "教育",
+      "font_class": "jiaoyu4",
+      "unicode": "e791",
+      "unicode_decimal": 59281
+    },
+    {
+      "icon_id": "4150388",
+      "name": "明师国际教育",
+      "font_class": "mingshiguojijiaoyu",
+      "unicode": "e61a",
+      "unicode_decimal": 58906
+    }
+  ]
+}

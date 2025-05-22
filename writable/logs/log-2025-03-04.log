@@ -1,0 +1,1743 @@
+DEBUG - 2025-03-04 08:49:21 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2025-03-04 08:49:21 --> [DEPRECATED] Creation of dynamic property SysAdmin\Controllers\Login::$session is deprecated in ROOTPATH\SysAdmin\Controllers\BaseController.php on line 51.
+ 1 SYSTEMPATH\CodeIgniter.php(903): SysAdmin\Controllers\BaseController->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(498): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+WARNING - 2025-03-04 08:49:21 --> [DEPRECATED] Creation of dynamic property SysAdmin\Controllers\Login::$encrypter is deprecated in ROOTPATH\SysAdmin\Controllers\BaseController.php on line 52.
+ 1 SYSTEMPATH\CodeIgniter.php(903): SysAdmin\Controllers\BaseController->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(498): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+DEBUG - 2025-03-04 08:49:29 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2025-03-04 08:49:29 --> [DEPRECATED] Creation of dynamic property SysAdmin\Controllers\Login::$session is deprecated in ROOTPATH\SysAdmin\Controllers\BaseController.php on line 51.
+ 1 SYSTEMPATH\CodeIgniter.php(903): SysAdmin\Controllers\BaseController->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(498): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+WARNING - 2025-03-04 08:49:29 --> [DEPRECATED] Creation of dynamic property SysAdmin\Controllers\Login::$encrypter is deprecated in ROOTPATH\SysAdmin\Controllers\BaseController.php on line 52.
+ 1 SYSTEMPATH\CodeIgniter.php(903): SysAdmin\Controllers\BaseController->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(498): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+DEBUG - 2025-03-04 08:49:29 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2025-03-04 08:49:29 --> [DEPRECATED] Creation of dynamic property SysAdmin\Controllers\Home::$session is deprecated in ROOTPATH\SysAdmin\Controllers\BaseController.php on line 51.
+ 1 ROOTPATH\SysAdmin\Controllers\Home.php(10): SysAdmin\Controllers\BaseController->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(903): SysAdmin\Controllers\Home->__construct()
+ 3 SYSTEMPATH\CodeIgniter.php(498): CodeIgniter\CodeIgniter->createController()
+ 4 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+WARNING - 2025-03-04 08:49:29 --> [DEPRECATED] Creation of dynamic property SysAdmin\Controllers\Home::$encrypter is deprecated in ROOTPATH\SysAdmin\Controllers\BaseController.php on line 52.
+ 1 ROOTPATH\SysAdmin\Controllers\Home.php(10): SysAdmin\Controllers\BaseController->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(903): SysAdmin\Controllers\Home->__construct()
+ 3 SYSTEMPATH\CodeIgniter.php(498): CodeIgniter\CodeIgniter->createController()
+ 4 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+DEBUG - 2025-03-04 08:49:29 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2025-03-04 08:49:29 --> [DEPRECATED] Optional parameter $sarray declared before required parameter $id is implicitly treated as a required parameter in ROOTPATH\SysAdmin\Models\baseInfo\NavModel.php on line 15.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(316): include_once('E:\\web\\XAMPP\\htdocs\\test\\system\\Debug\\Exceptions.php')
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(295): CodeIgniter\Autoloader\Autoloader->includeFile('E:\\web\\XAMPP\\htdocs\\test\\SysAdmin\\Models\\baseInfo\\NavModel.php')
+ 3 SYSTEMPATH\Autoloader\Autoloader.php(271): CodeIgniter\Autoloader\Autoloader->loadInNamespace('SysAdmin\\Models\\baseInfo\\NavModel')
+ 4 APPPATH\Filters\isLoggedIn.php(21): CodeIgniter\Autoloader\Autoloader->loadClass('SysAdmin\\Models\\baseInfo\\NavModel')
+ 5 SYSTEMPATH\Filters\Filters.php(241): App\Filters\isLoggedIn->before(Object(CodeIgniter\HTTP\IncomingRequest), null)
+ 6 SYSTEMPATH\Filters\Filters.php(221): CodeIgniter\Filters\Filters->runBefore([...])
+ 7 SYSTEMPATH\CodeIgniter.php(479): CodeIgniter\Filters\Filters->run('xccmssys/getSystemInit', 'before')
+ 8 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ERROR - 2025-03-04 08:49:29 --> mysqli_sql_exception: Unknown column 'title' in 'field list' in E:\web\XAMPP\htdocs\test\system\Database\MySQLi\Connection.php:327
+Stack trace:
+#0 E:\web\XAMPP\htdocs\test\system\Database\MySQLi\Connection.php(327): mysqli->query('SELECT `id`, `t...', 0)
+#1 E:\web\XAMPP\htdocs\test\system\Database\BaseConnection.php(738): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `id`, `t...')
+#2 E:\web\XAMPP\htdocs\test\system\Database\BaseConnection.php(652): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `id`, `t...')
+#3 E:\web\XAMPP\htdocs\test\system\Database\BaseBuilder.php(1649): CodeIgniter\Database\BaseConnection->query('SELECT `id`, `t...', Array, false)
+#4 E:\web\XAMPP\htdocs\test\system\Model.php(928): CodeIgniter\Database\BaseBuilder->get()
+#5 E:\web\XAMPP\htdocs\test\app\Filters\isLoggedIn.php(31): CodeIgniter\Model->__call('get', Array)
+#6 E:\web\XAMPP\htdocs\test\system\Filters\Filters.php(241): App\Filters\isLoggedIn->before(Object(CodeIgniter\HTTP\IncomingRequest), NULL)
+#7 E:\web\XAMPP\htdocs\test\system\Filters\Filters.php(221): CodeIgniter\Filters\Filters->runBefore(Array)
+#8 E:\web\XAMPP\htdocs\test\system\CodeIgniter.php(479): CodeIgniter\Filters\Filters->run('xccmssys/getSys...', 'before')
+#9 E:\web\XAMPP\htdocs\test\system\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 E:\web\XAMPP\htdocs\test\system\Boot.php(334): CodeIgniter\CodeIgniter->run()
+#11 E:\web\XAMPP\htdocs\test\system\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#12 E:\web\XAMPP\htdocs\test\public\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#13 {main}
+CRITICAL - 2025-03-04 08:49:29 --> CodeIgniter\Database\Exceptions\DatabaseException: Unknown column 'title' in 'field list'
+[Method: GET, Route: xccmssys/getSystemInit]
+in SYSTEMPATH\Database\BaseConnection.php on line 692.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(1649): CodeIgniter\Database\BaseConnection->query('SELECT `id`, `title`, `status`, `sort`, `href`, `icon`, `pid`, `cate_id`
+FROM `c_nav`
+WHERE `href` != :href:
+ORDER BY `id` asc', [...], false)
+ 2 SYSTEMPATH\Model.php(928): CodeIgniter\Database\BaseBuilder->get()
+ 3 APPPATH\Filters\isLoggedIn.php(31): CodeIgniter\Model->__call('get', [])
+ 4 SYSTEMPATH\Filters\Filters.php(241): App\Filters\isLoggedIn->before(Object(CodeIgniter\HTTP\IncomingRequest), null)
+ 5 SYSTEMPATH\Filters\Filters.php(221): CodeIgniter\Filters\Filters->runBefore([...])
+ 6 SYSTEMPATH\CodeIgniter.php(479): CodeIgniter\Filters\Filters->run('xccmssys/getSystemInit', 'before')
+ 7 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+10 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-03-04 08:49:29 --> [Caused by] CodeIgniter\Database\Exceptions\DatabaseException: Unknown column 'title' in 'field list'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 332.
+ 1 SYSTEMPATH\Database\BaseConnection.php(738): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `id`, `title`, `status`, `sort`, `href`, `icon`, `pid`, `cate_id`
+FROM `c_nav`
+WHERE `href` != \' \'
+ORDER BY `id` asc')
+ 2 SYSTEMPATH\Database\BaseConnection.php(652): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `id`, `title`, `status`, `sort`, `href`, `icon`, `pid`, `cate_id`
+FROM `c_nav`
+WHERE `href` != \' \'
+ORDER BY `id` asc')
+ 3 SYSTEMPATH\Database\BaseBuilder.php(1649): CodeIgniter\Database\BaseConnection->query('SELECT `id`, `title`, `status`, `sort`, `href`, `icon`, `pid`, `cate_id`
+FROM `c_nav`
+WHERE `href` != :href:
+ORDER BY `id` asc', [...], false)
+ 4 SYSTEMPATH\Model.php(928): CodeIgniter\Database\BaseBuilder->get()
+ 5 APPPATH\Filters\isLoggedIn.php(31): CodeIgniter\Model->__call('get', [])
+ 6 SYSTEMPATH\Filters\Filters.php(241): App\Filters\isLoggedIn->before(Object(CodeIgniter\HTTP\IncomingRequest), null)
+ 7 SYSTEMPATH\Filters\Filters.php(221): CodeIgniter\Filters\Filters->runBefore([...])
+ 8 SYSTEMPATH\CodeIgniter.php(479): CodeIgniter\Filters\Filters->run('xccmssys/getSystemInit', 'before')
+ 9 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+12 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-03-04 08:49:29 --> [Caused by] mysqli_sql_exception: Unknown column 'title' in 'field list'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 327.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(327): mysqli->query('SELECT `id`, `title`, `status`, `sort`, `href`, `icon`, `pid`, `cate_id`
+FROM `c_nav`
+WHERE `href` != \' \'
+ORDER BY `id` asc', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(738): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `id`, `title`, `status`, `sort`, `href`, `icon`, `pid`, `cate_id`
+FROM `c_nav`
+WHERE `href` != \' \'
+ORDER BY `id` asc')
+ 3 SYSTEMPATH\Database\BaseConnection.php(652): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `id`, `title`, `status`, `sort`, `href`, `icon`, `pid`, `cate_id`
+FROM `c_nav`
+WHERE `href` != \' \'
+ORDER BY `id` asc')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1649): CodeIgniter\Database\BaseConnection->query('SELECT `id`, `title`, `status`, `sort`, `href`, `icon`, `pid`, `cate_id`
+FROM `c_nav`
+WHERE `href` != :href:
+ORDER BY `id` asc', [...], false)
+ 5 SYSTEMPATH\Model.php(928): CodeIgniter\Database\BaseBuilder->get()
+ 6 APPPATH\Filters\isLoggedIn.php(31): CodeIgniter\Model->__call('get', [])
+ 7 SYSTEMPATH\Filters\Filters.php(241): App\Filters\isLoggedIn->before(Object(CodeIgniter\HTTP\IncomingRequest), null)
+ 8 SYSTEMPATH\Filters\Filters.php(221): CodeIgniter\Filters\Filters->runBefore([...])
+ 9 SYSTEMPATH\CodeIgniter.php(479): CodeIgniter\Filters\Filters->run('xccmssys/getSystemInit', 'before')
+10 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+12 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+13 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+DEBUG - 2025-03-04 08:49:37 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2025-03-04 08:49:37 --> [DEPRECATED] Creation of dynamic property SysAdmin\Controllers\Home::$session is deprecated in ROOTPATH\SysAdmin\Controllers\BaseController.php on line 51.
+ 1 ROOTPATH\SysAdmin\Controllers\Home.php(10): SysAdmin\Controllers\BaseController->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(903): SysAdmin\Controllers\Home->__construct()
+ 3 SYSTEMPATH\CodeIgniter.php(498): CodeIgniter\CodeIgniter->createController()
+ 4 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+WARNING - 2025-03-04 08:49:37 --> [DEPRECATED] Creation of dynamic property SysAdmin\Controllers\Home::$encrypter is deprecated in ROOTPATH\SysAdmin\Controllers\BaseController.php on line 52.
+ 1 ROOTPATH\SysAdmin\Controllers\Home.php(10): SysAdmin\Controllers\BaseController->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(903): SysAdmin\Controllers\Home->__construct()
+ 3 SYSTEMPATH\CodeIgniter.php(498): CodeIgniter\CodeIgniter->createController()
+ 4 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+DEBUG - 2025-03-04 08:49:37 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2025-03-04 08:49:37 --> [DEPRECATED] Optional parameter $sarray declared before required parameter $id is implicitly treated as a required parameter in ROOTPATH\SysAdmin\Models\baseInfo\NavModel.php on line 15.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(316): include_once('E:\\web\\XAMPP\\htdocs\\test\\system\\Debug\\Exceptions.php')
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(295): CodeIgniter\Autoloader\Autoloader->includeFile('E:\\web\\XAMPP\\htdocs\\test\\SysAdmin\\Models\\baseInfo\\NavModel.php')
+ 3 SYSTEMPATH\Autoloader\Autoloader.php(271): CodeIgniter\Autoloader\Autoloader->loadInNamespace('SysAdmin\\Models\\baseInfo\\NavModel')
+ 4 APPPATH\Filters\isLoggedIn.php(21): CodeIgniter\Autoloader\Autoloader->loadClass('SysAdmin\\Models\\baseInfo\\NavModel')
+ 5 SYSTEMPATH\Filters\Filters.php(241): App\Filters\isLoggedIn->before(Object(CodeIgniter\HTTP\IncomingRequest), null)
+ 6 SYSTEMPATH\Filters\Filters.php(221): CodeIgniter\Filters\Filters->runBefore([...])
+ 7 SYSTEMPATH\CodeIgniter.php(479): CodeIgniter\Filters\Filters->run('xccmssys/getSystemInit', 'before')
+ 8 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ERROR - 2025-03-04 08:49:37 --> mysqli_sql_exception: Unknown column 'title' in 'field list' in E:\web\XAMPP\htdocs\test\system\Database\MySQLi\Connection.php:327
+Stack trace:
+#0 E:\web\XAMPP\htdocs\test\system\Database\MySQLi\Connection.php(327): mysqli->query('SELECT `id`, `t...', 0)
+#1 E:\web\XAMPP\htdocs\test\system\Database\BaseConnection.php(738): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `id`, `t...')
+#2 E:\web\XAMPP\htdocs\test\system\Database\BaseConnection.php(652): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `id`, `t...')
+#3 E:\web\XAMPP\htdocs\test\system\Database\BaseBuilder.php(1649): CodeIgniter\Database\BaseConnection->query('SELECT `id`, `t...', Array, false)
+#4 E:\web\XAMPP\htdocs\test\system\Model.php(928): CodeIgniter\Database\BaseBuilder->get()
+#5 E:\web\XAMPP\htdocs\test\app\Filters\isLoggedIn.php(31): CodeIgniter\Model->__call('get', Array)
+#6 E:\web\XAMPP\htdocs\test\system\Filters\Filters.php(241): App\Filters\isLoggedIn->before(Object(CodeIgniter\HTTP\IncomingRequest), NULL)
+#7 E:\web\XAMPP\htdocs\test\system\Filters\Filters.php(221): CodeIgniter\Filters\Filters->runBefore(Array)
+#8 E:\web\XAMPP\htdocs\test\system\CodeIgniter.php(479): CodeIgniter\Filters\Filters->run('xccmssys/getSys...', 'before')
+#9 E:\web\XAMPP\htdocs\test\system\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 E:\web\XAMPP\htdocs\test\system\Boot.php(334): CodeIgniter\CodeIgniter->run()
+#11 E:\web\XAMPP\htdocs\test\system\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#12 E:\web\XAMPP\htdocs\test\public\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#13 {main}
+CRITICAL - 2025-03-04 08:49:37 --> CodeIgniter\Database\Exceptions\DatabaseException: Unknown column 'title' in 'field list'
+[Method: GET, Route: xccmssys/getSystemInit]
+in SYSTEMPATH\Database\BaseConnection.php on line 692.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(1649): CodeIgniter\Database\BaseConnection->query('SELECT `id`, `title`, `status`, `sort`, `href`, `icon`, `pid`, `cate_id`
+FROM `c_nav`
+WHERE `href` != :href:
+ORDER BY `id` asc', [...], false)
+ 2 SYSTEMPATH\Model.php(928): CodeIgniter\Database\BaseBuilder->get()
+ 3 APPPATH\Filters\isLoggedIn.php(31): CodeIgniter\Model->__call('get', [])
+ 4 SYSTEMPATH\Filters\Filters.php(241): App\Filters\isLoggedIn->before(Object(CodeIgniter\HTTP\IncomingRequest), null)
+ 5 SYSTEMPATH\Filters\Filters.php(221): CodeIgniter\Filters\Filters->runBefore([...])
+ 6 SYSTEMPATH\CodeIgniter.php(479): CodeIgniter\Filters\Filters->run('xccmssys/getSystemInit', 'before')
+ 7 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+10 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-03-04 08:49:37 --> [Caused by] CodeIgniter\Database\Exceptions\DatabaseException: Unknown column 'title' in 'field list'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 332.
+ 1 SYSTEMPATH\Database\BaseConnection.php(738): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `id`, `title`, `status`, `sort`, `href`, `icon`, `pid`, `cate_id`
+FROM `c_nav`
+WHERE `href` != \' \'
+ORDER BY `id` asc')
+ 2 SYSTEMPATH\Database\BaseConnection.php(652): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `id`, `title`, `status`, `sort`, `href`, `icon`, `pid`, `cate_id`
+FROM `c_nav`
+WHERE `href` != \' \'
+ORDER BY `id` asc')
+ 3 SYSTEMPATH\Database\BaseBuilder.php(1649): CodeIgniter\Database\BaseConnection->query('SELECT `id`, `title`, `status`, `sort`, `href`, `icon`, `pid`, `cate_id`
+FROM `c_nav`
+WHERE `href` != :href:
+ORDER BY `id` asc', [...], false)
+ 4 SYSTEMPATH\Model.php(928): CodeIgniter\Database\BaseBuilder->get()
+ 5 APPPATH\Filters\isLoggedIn.php(31): CodeIgniter\Model->__call('get', [])
+ 6 SYSTEMPATH\Filters\Filters.php(241): App\Filters\isLoggedIn->before(Object(CodeIgniter\HTTP\IncomingRequest), null)
+ 7 SYSTEMPATH\Filters\Filters.php(221): CodeIgniter\Filters\Filters->runBefore([...])
+ 8 SYSTEMPATH\CodeIgniter.php(479): CodeIgniter\Filters\Filters->run('xccmssys/getSystemInit', 'before')
+ 9 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+12 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-03-04 08:49:37 --> [Caused by] mysqli_sql_exception: Unknown column 'title' in 'field list'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 327.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(327): mysqli->query('SELECT `id`, `title`, `status`, `sort`, `href`, `icon`, `pid`, `cate_id`
+FROM `c_nav`
+WHERE `href` != \' \'
+ORDER BY `id` asc', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(738): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `id`, `title`, `status`, `sort`, `href`, `icon`, `pid`, `cate_id`
+FROM `c_nav`
+WHERE `href` != \' \'
+ORDER BY `id` asc')
+ 3 SYSTEMPATH\Database\BaseConnection.php(652): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `id`, `title`, `status`, `sort`, `href`, `icon`, `pid`, `cate_id`
+FROM `c_nav`
+WHERE `href` != \' \'
+ORDER BY `id` asc')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1649): CodeIgniter\Database\BaseConnection->query('SELECT `id`, `title`, `status`, `sort`, `href`, `icon`, `pid`, `cate_id`
+FROM `c_nav`
+WHERE `href` != :href:
+ORDER BY `id` asc', [...], false)
+ 5 SYSTEMPATH\Model.php(928): CodeIgniter\Database\BaseBuilder->get()
+ 6 APPPATH\Filters\isLoggedIn.php(31): CodeIgniter\Model->__call('get', [])
+ 7 SYSTEMPATH\Filters\Filters.php(241): App\Filters\isLoggedIn->before(Object(CodeIgniter\HTTP\IncomingRequest), null)
+ 8 SYSTEMPATH\Filters\Filters.php(221): CodeIgniter\Filters\Filters->runBefore([...])
+ 9 SYSTEMPATH\CodeIgniter.php(479): CodeIgniter\Filters\Filters->run('xccmssys/getSystemInit', 'before')
+10 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+12 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+13 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+DEBUG - 2025-03-04 08:49:42 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2025-03-04 08:49:42 --> [DEPRECATED] Optional parameter $sarray declared before required parameter $id is implicitly treated as a required parameter in ROOTPATH\SysAdmin\Models\baseInfo\NavModel.php on line 15.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(316): include_once('E:\\web\\XAMPP\\htdocs\\test\\system\\Debug\\Exceptions.php')
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(295): CodeIgniter\Autoloader\Autoloader->includeFile('E:\\web\\XAMPP\\htdocs\\test\\SysAdmin\\Models\\baseInfo\\NavModel.php')
+ 3 SYSTEMPATH\Autoloader\Autoloader.php(271): CodeIgniter\Autoloader\Autoloader->loadInNamespace('SysAdmin\\Models\\baseInfo\\NavModel')
+ 4 APPPATH\Filters\isLoggedIn.php(21): CodeIgniter\Autoloader\Autoloader->loadClass('SysAdmin\\Models\\baseInfo\\NavModel')
+ 5 SYSTEMPATH\Filters\Filters.php(241): App\Filters\isLoggedIn->before(Object(CodeIgniter\HTTP\IncomingRequest), null)
+ 6 SYSTEMPATH\Filters\Filters.php(221): CodeIgniter\Filters\Filters->runBefore([...])
+ 7 SYSTEMPATH\CodeIgniter.php(479): CodeIgniter\Filters\Filters->run('xccmssys/getSystemInit', 'before')
+ 8 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ERROR - 2025-03-04 08:49:42 --> mysqli_sql_exception: Unknown column 'title' in 'field list' in E:\web\XAMPP\htdocs\test\system\Database\MySQLi\Connection.php:327
+Stack trace:
+#0 E:\web\XAMPP\htdocs\test\system\Database\MySQLi\Connection.php(327): mysqli->query('SELECT `id`, `t...', 0)
+#1 E:\web\XAMPP\htdocs\test\system\Database\BaseConnection.php(738): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `id`, `t...')
+#2 E:\web\XAMPP\htdocs\test\system\Database\BaseConnection.php(652): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `id`, `t...')
+#3 E:\web\XAMPP\htdocs\test\system\Database\BaseBuilder.php(1649): CodeIgniter\Database\BaseConnection->query('SELECT `id`, `t...', Array, false)
+#4 E:\web\XAMPP\htdocs\test\system\Model.php(928): CodeIgniter\Database\BaseBuilder->get()
+#5 E:\web\XAMPP\htdocs\test\app\Filters\isLoggedIn.php(31): CodeIgniter\Model->__call('get', Array)
+#6 E:\web\XAMPP\htdocs\test\system\Filters\Filters.php(241): App\Filters\isLoggedIn->before(Object(CodeIgniter\HTTP\IncomingRequest), NULL)
+#7 E:\web\XAMPP\htdocs\test\system\Filters\Filters.php(221): CodeIgniter\Filters\Filters->runBefore(Array)
+#8 E:\web\XAMPP\htdocs\test\system\CodeIgniter.php(479): CodeIgniter\Filters\Filters->run('xccmssys/getSys...', 'before')
+#9 E:\web\XAMPP\htdocs\test\system\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 E:\web\XAMPP\htdocs\test\system\Boot.php(334): CodeIgniter\CodeIgniter->run()
+#11 E:\web\XAMPP\htdocs\test\system\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#12 E:\web\XAMPP\htdocs\test\public\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#13 {main}
+CRITICAL - 2025-03-04 08:49:42 --> CodeIgniter\Database\Exceptions\DatabaseException: Unknown column 'title' in 'field list'
+[Method: GET, Route: xccmssys/getSystemInit]
+in SYSTEMPATH\Database\BaseConnection.php on line 692.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(1649): CodeIgniter\Database\BaseConnection->query('SELECT `id`, `title`, `status`, `sort`, `href`, `icon`, `pid`, `cate_id`
+FROM `c_nav`
+WHERE `href` != :href:
+ORDER BY `id` asc', [...], false)
+ 2 SYSTEMPATH\Model.php(928): CodeIgniter\Database\BaseBuilder->get()
+ 3 APPPATH\Filters\isLoggedIn.php(31): CodeIgniter\Model->__call('get', [])
+ 4 SYSTEMPATH\Filters\Filters.php(241): App\Filters\isLoggedIn->before(Object(CodeIgniter\HTTP\IncomingRequest), null)
+ 5 SYSTEMPATH\Filters\Filters.php(221): CodeIgniter\Filters\Filters->runBefore([...])
+ 6 SYSTEMPATH\CodeIgniter.php(479): CodeIgniter\Filters\Filters->run('xccmssys/getSystemInit', 'before')
+ 7 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+10 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-03-04 08:49:42 --> [Caused by] CodeIgniter\Database\Exceptions\DatabaseException: Unknown column 'title' in 'field list'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 332.
+ 1 SYSTEMPATH\Database\BaseConnection.php(738): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `id`, `title`, `status`, `sort`, `href`, `icon`, `pid`, `cate_id`
+FROM `c_nav`
+WHERE `href` != \' \'
+ORDER BY `id` asc')
+ 2 SYSTEMPATH\Database\BaseConnection.php(652): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `id`, `title`, `status`, `sort`, `href`, `icon`, `pid`, `cate_id`
+FROM `c_nav`
+WHERE `href` != \' \'
+ORDER BY `id` asc')
+ 3 SYSTEMPATH\Database\BaseBuilder.php(1649): CodeIgniter\Database\BaseConnection->query('SELECT `id`, `title`, `status`, `sort`, `href`, `icon`, `pid`, `cate_id`
+FROM `c_nav`
+WHERE `href` != :href:
+ORDER BY `id` asc', [...], false)
+ 4 SYSTEMPATH\Model.php(928): CodeIgniter\Database\BaseBuilder->get()
+ 5 APPPATH\Filters\isLoggedIn.php(31): CodeIgniter\Model->__call('get', [])
+ 6 SYSTEMPATH\Filters\Filters.php(241): App\Filters\isLoggedIn->before(Object(CodeIgniter\HTTP\IncomingRequest), null)
+ 7 SYSTEMPATH\Filters\Filters.php(221): CodeIgniter\Filters\Filters->runBefore([...])
+ 8 SYSTEMPATH\CodeIgniter.php(479): CodeIgniter\Filters\Filters->run('xccmssys/getSystemInit', 'before')
+ 9 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+12 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-03-04 08:49:42 --> [Caused by] mysqli_sql_exception: Unknown column 'title' in 'field list'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 327.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(327): mysqli->query('SELECT `id`, `title`, `status`, `sort`, `href`, `icon`, `pid`, `cate_id`
+FROM `c_nav`
+WHERE `href` != \' \'
+ORDER BY `id` asc', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(738): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `id`, `title`, `status`, `sort`, `href`, `icon`, `pid`, `cate_id`
+FROM `c_nav`
+WHERE `href` != \' \'
+ORDER BY `id` asc')
+ 3 SYSTEMPATH\Database\BaseConnection.php(652): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `id`, `title`, `status`, `sort`, `href`, `icon`, `pid`, `cate_id`
+FROM `c_nav`
+WHERE `href` != \' \'
+ORDER BY `id` asc')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1649): CodeIgniter\Database\BaseConnection->query('SELECT `id`, `title`, `status`, `sort`, `href`, `icon`, `pid`, `cate_id`
+FROM `c_nav`
+WHERE `href` != :href:
+ORDER BY `id` asc', [...], false)
+ 5 SYSTEMPATH\Model.php(928): CodeIgniter\Database\BaseBuilder->get()
+ 6 APPPATH\Filters\isLoggedIn.php(31): CodeIgniter\Model->__call('get', [])
+ 7 SYSTEMPATH\Filters\Filters.php(241): App\Filters\isLoggedIn->before(Object(CodeIgniter\HTTP\IncomingRequest), null)
+ 8 SYSTEMPATH\Filters\Filters.php(221): CodeIgniter\Filters\Filters->runBefore([...])
+ 9 SYSTEMPATH\CodeIgniter.php(479): CodeIgniter\Filters\Filters->run('xccmssys/getSystemInit', 'before')
+10 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+12 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+13 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+DEBUG - 2025-03-04 08:51:52 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2025-03-04 08:51:52 --> [DEPRECATED] Optional parameter $sarray declared before required parameter $id is implicitly treated as a required parameter in ROOTPATH\SysAdmin\Models\baseInfo\NavModel.php on line 15.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(316): include_once('E:\\web\\XAMPP\\htdocs\\test\\system\\Debug\\Exceptions.php')
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(295): CodeIgniter\Autoloader\Autoloader->includeFile('E:\\web\\XAMPP\\htdocs\\test\\SysAdmin\\Models\\baseInfo\\NavModel.php')
+ 3 SYSTEMPATH\Autoloader\Autoloader.php(271): CodeIgniter\Autoloader\Autoloader->loadInNamespace('SysAdmin\\Models\\baseInfo\\NavModel')
+ 4 APPPATH\Filters\isLoggedIn.php(21): CodeIgniter\Autoloader\Autoloader->loadClass('SysAdmin\\Models\\baseInfo\\NavModel')
+ 5 SYSTEMPATH\Filters\Filters.php(241): App\Filters\isLoggedIn->before(Object(CodeIgniter\HTTP\IncomingRequest), null)
+ 6 SYSTEMPATH\Filters\Filters.php(221): CodeIgniter\Filters\Filters->runBefore([...])
+ 7 SYSTEMPATH\CodeIgniter.php(479): CodeIgniter\Filters\Filters->run('xccmssys/getSystemInit', 'before')
+ 8 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ERROR - 2025-03-04 08:51:52 --> mysqli_sql_exception: Unknown column 'title' in 'field list' in E:\web\XAMPP\htdocs\test\system\Database\MySQLi\Connection.php:327
+Stack trace:
+#0 E:\web\XAMPP\htdocs\test\system\Database\MySQLi\Connection.php(327): mysqli->query('SELECT `id`, `t...', 0)
+#1 E:\web\XAMPP\htdocs\test\system\Database\BaseConnection.php(738): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `id`, `t...')
+#2 E:\web\XAMPP\htdocs\test\system\Database\BaseConnection.php(652): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `id`, `t...')
+#3 E:\web\XAMPP\htdocs\test\system\Database\BaseBuilder.php(1649): CodeIgniter\Database\BaseConnection->query('SELECT `id`, `t...', Array, false)
+#4 E:\web\XAMPP\htdocs\test\system\Model.php(928): CodeIgniter\Database\BaseBuilder->get()
+#5 E:\web\XAMPP\htdocs\test\app\Filters\isLoggedIn.php(31): CodeIgniter\Model->__call('get', Array)
+#6 E:\web\XAMPP\htdocs\test\system\Filters\Filters.php(241): App\Filters\isLoggedIn->before(Object(CodeIgniter\HTTP\IncomingRequest), NULL)
+#7 E:\web\XAMPP\htdocs\test\system\Filters\Filters.php(221): CodeIgniter\Filters\Filters->runBefore(Array)
+#8 E:\web\XAMPP\htdocs\test\system\CodeIgniter.php(479): CodeIgniter\Filters\Filters->run('xccmssys/getSys...', 'before')
+#9 E:\web\XAMPP\htdocs\test\system\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 E:\web\XAMPP\htdocs\test\system\Boot.php(334): CodeIgniter\CodeIgniter->run()
+#11 E:\web\XAMPP\htdocs\test\system\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#12 E:\web\XAMPP\htdocs\test\public\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#13 {main}
+CRITICAL - 2025-03-04 08:51:52 --> CodeIgniter\Database\Exceptions\DatabaseException: Unknown column 'title' in 'field list'
+[Method: GET, Route: xccmssys/getSystemInit]
+in SYSTEMPATH\Database\BaseConnection.php on line 692.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(1649): CodeIgniter\Database\BaseConnection->query('SELECT `id`, `title`, `status`, `sort`, `href`, `icon`, `pid`, `cate_id`
+FROM `c_nav`
+WHERE `href` != :href:
+ORDER BY `id` asc', [...], false)
+ 2 SYSTEMPATH\Model.php(928): CodeIgniter\Database\BaseBuilder->get()
+ 3 APPPATH\Filters\isLoggedIn.php(31): CodeIgniter\Model->__call('get', [])
+ 4 SYSTEMPATH\Filters\Filters.php(241): App\Filters\isLoggedIn->before(Object(CodeIgniter\HTTP\IncomingRequest), null)
+ 5 SYSTEMPATH\Filters\Filters.php(221): CodeIgniter\Filters\Filters->runBefore([...])
+ 6 SYSTEMPATH\CodeIgniter.php(479): CodeIgniter\Filters\Filters->run('xccmssys/getSystemInit', 'before')
+ 7 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+10 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-03-04 08:51:52 --> [Caused by] CodeIgniter\Database\Exceptions\DatabaseException: Unknown column 'title' in 'field list'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 332.
+ 1 SYSTEMPATH\Database\BaseConnection.php(738): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `id`, `title`, `status`, `sort`, `href`, `icon`, `pid`, `cate_id`
+FROM `c_nav`
+WHERE `href` != \' \'
+ORDER BY `id` asc')
+ 2 SYSTEMPATH\Database\BaseConnection.php(652): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `id`, `title`, `status`, `sort`, `href`, `icon`, `pid`, `cate_id`
+FROM `c_nav`
+WHERE `href` != \' \'
+ORDER BY `id` asc')
+ 3 SYSTEMPATH\Database\BaseBuilder.php(1649): CodeIgniter\Database\BaseConnection->query('SELECT `id`, `title`, `status`, `sort`, `href`, `icon`, `pid`, `cate_id`
+FROM `c_nav`
+WHERE `href` != :href:
+ORDER BY `id` asc', [...], false)
+ 4 SYSTEMPATH\Model.php(928): CodeIgniter\Database\BaseBuilder->get()
+ 5 APPPATH\Filters\isLoggedIn.php(31): CodeIgniter\Model->__call('get', [])
+ 6 SYSTEMPATH\Filters\Filters.php(241): App\Filters\isLoggedIn->before(Object(CodeIgniter\HTTP\IncomingRequest), null)
+ 7 SYSTEMPATH\Filters\Filters.php(221): CodeIgniter\Filters\Filters->runBefore([...])
+ 8 SYSTEMPATH\CodeIgniter.php(479): CodeIgniter\Filters\Filters->run('xccmssys/getSystemInit', 'before')
+ 9 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+12 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-03-04 08:51:52 --> [Caused by] mysqli_sql_exception: Unknown column 'title' in 'field list'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 327.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(327): mysqli->query('SELECT `id`, `title`, `status`, `sort`, `href`, `icon`, `pid`, `cate_id`
+FROM `c_nav`
+WHERE `href` != \' \'
+ORDER BY `id` asc', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(738): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `id`, `title`, `status`, `sort`, `href`, `icon`, `pid`, `cate_id`
+FROM `c_nav`
+WHERE `href` != \' \'
+ORDER BY `id` asc')
+ 3 SYSTEMPATH\Database\BaseConnection.php(652): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `id`, `title`, `status`, `sort`, `href`, `icon`, `pid`, `cate_id`
+FROM `c_nav`
+WHERE `href` != \' \'
+ORDER BY `id` asc')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1649): CodeIgniter\Database\BaseConnection->query('SELECT `id`, `title`, `status`, `sort`, `href`, `icon`, `pid`, `cate_id`
+FROM `c_nav`
+WHERE `href` != :href:
+ORDER BY `id` asc', [...], false)
+ 5 SYSTEMPATH\Model.php(928): CodeIgniter\Database\BaseBuilder->get()
+ 6 APPPATH\Filters\isLoggedIn.php(31): CodeIgniter\Model->__call('get', [])
+ 7 SYSTEMPATH\Filters\Filters.php(241): App\Filters\isLoggedIn->before(Object(CodeIgniter\HTTP\IncomingRequest), null)
+ 8 SYSTEMPATH\Filters\Filters.php(221): CodeIgniter\Filters\Filters->runBefore([...])
+ 9 SYSTEMPATH\CodeIgniter.php(479): CodeIgniter\Filters\Filters->run('xccmssys/getSystemInit', 'before')
+10 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+12 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+13 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+DEBUG - 2025-03-04 08:51:53 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2025-03-04 08:51:53 --> [DEPRECATED] Optional parameter $sarray declared before required parameter $id is implicitly treated as a required parameter in ROOTPATH\SysAdmin\Models\baseInfo\NavModel.php on line 15.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(316): include_once('E:\\web\\XAMPP\\htdocs\\test\\system\\Debug\\Exceptions.php')
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(295): CodeIgniter\Autoloader\Autoloader->includeFile('E:\\web\\XAMPP\\htdocs\\test\\SysAdmin\\Models\\baseInfo\\NavModel.php')
+ 3 SYSTEMPATH\Autoloader\Autoloader.php(271): CodeIgniter\Autoloader\Autoloader->loadInNamespace('SysAdmin\\Models\\baseInfo\\NavModel')
+ 4 APPPATH\Filters\isLoggedIn.php(21): CodeIgniter\Autoloader\Autoloader->loadClass('SysAdmin\\Models\\baseInfo\\NavModel')
+ 5 SYSTEMPATH\Filters\Filters.php(241): App\Filters\isLoggedIn->before(Object(CodeIgniter\HTTP\IncomingRequest), null)
+ 6 SYSTEMPATH\Filters\Filters.php(221): CodeIgniter\Filters\Filters->runBefore([...])
+ 7 SYSTEMPATH\CodeIgniter.php(479): CodeIgniter\Filters\Filters->run('xccmssys/getSystemInit', 'before')
+ 8 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ERROR - 2025-03-04 08:51:53 --> mysqli_sql_exception: Unknown column 'title' in 'field list' in E:\web\XAMPP\htdocs\test\system\Database\MySQLi\Connection.php:327
+Stack trace:
+#0 E:\web\XAMPP\htdocs\test\system\Database\MySQLi\Connection.php(327): mysqli->query('SELECT `id`, `t...', 0)
+#1 E:\web\XAMPP\htdocs\test\system\Database\BaseConnection.php(738): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `id`, `t...')
+#2 E:\web\XAMPP\htdocs\test\system\Database\BaseConnection.php(652): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `id`, `t...')
+#3 E:\web\XAMPP\htdocs\test\system\Database\BaseBuilder.php(1649): CodeIgniter\Database\BaseConnection->query('SELECT `id`, `t...', Array, false)
+#4 E:\web\XAMPP\htdocs\test\system\Model.php(928): CodeIgniter\Database\BaseBuilder->get()
+#5 E:\web\XAMPP\htdocs\test\app\Filters\isLoggedIn.php(31): CodeIgniter\Model->__call('get', Array)
+#6 E:\web\XAMPP\htdocs\test\system\Filters\Filters.php(241): App\Filters\isLoggedIn->before(Object(CodeIgniter\HTTP\IncomingRequest), NULL)
+#7 E:\web\XAMPP\htdocs\test\system\Filters\Filters.php(221): CodeIgniter\Filters\Filters->runBefore(Array)
+#8 E:\web\XAMPP\htdocs\test\system\CodeIgniter.php(479): CodeIgniter\Filters\Filters->run('xccmssys/getSys...', 'before')
+#9 E:\web\XAMPP\htdocs\test\system\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 E:\web\XAMPP\htdocs\test\system\Boot.php(334): CodeIgniter\CodeIgniter->run()
+#11 E:\web\XAMPP\htdocs\test\system\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#12 E:\web\XAMPP\htdocs\test\public\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#13 {main}
+CRITICAL - 2025-03-04 08:51:53 --> CodeIgniter\Database\Exceptions\DatabaseException: Unknown column 'title' in 'field list'
+[Method: GET, Route: xccmssys/getSystemInit]
+in SYSTEMPATH\Database\BaseConnection.php on line 692.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(1649): CodeIgniter\Database\BaseConnection->query('SELECT `id`, `title`, `status`, `sort`, `href`, `icon`, `pid`, `cate_id`
+FROM `c_nav`
+WHERE `href` != :href:
+ORDER BY `id` asc', [...], false)
+ 2 SYSTEMPATH\Model.php(928): CodeIgniter\Database\BaseBuilder->get()
+ 3 APPPATH\Filters\isLoggedIn.php(31): CodeIgniter\Model->__call('get', [])
+ 4 SYSTEMPATH\Filters\Filters.php(241): App\Filters\isLoggedIn->before(Object(CodeIgniter\HTTP\IncomingRequest), null)
+ 5 SYSTEMPATH\Filters\Filters.php(221): CodeIgniter\Filters\Filters->runBefore([...])
+ 6 SYSTEMPATH\CodeIgniter.php(479): CodeIgniter\Filters\Filters->run('xccmssys/getSystemInit', 'before')
+ 7 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+10 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-03-04 08:51:53 --> [Caused by] CodeIgniter\Database\Exceptions\DatabaseException: Unknown column 'title' in 'field list'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 332.
+ 1 SYSTEMPATH\Database\BaseConnection.php(738): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `id`, `title`, `status`, `sort`, `href`, `icon`, `pid`, `cate_id`
+FROM `c_nav`
+WHERE `href` != \' \'
+ORDER BY `id` asc')
+ 2 SYSTEMPATH\Database\BaseConnection.php(652): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `id`, `title`, `status`, `sort`, `href`, `icon`, `pid`, `cate_id`
+FROM `c_nav`
+WHERE `href` != \' \'
+ORDER BY `id` asc')
+ 3 SYSTEMPATH\Database\BaseBuilder.php(1649): CodeIgniter\Database\BaseConnection->query('SELECT `id`, `title`, `status`, `sort`, `href`, `icon`, `pid`, `cate_id`
+FROM `c_nav`
+WHERE `href` != :href:
+ORDER BY `id` asc', [...], false)
+ 4 SYSTEMPATH\Model.php(928): CodeIgniter\Database\BaseBuilder->get()
+ 5 APPPATH\Filters\isLoggedIn.php(31): CodeIgniter\Model->__call('get', [])
+ 6 SYSTEMPATH\Filters\Filters.php(241): App\Filters\isLoggedIn->before(Object(CodeIgniter\HTTP\IncomingRequest), null)
+ 7 SYSTEMPATH\Filters\Filters.php(221): CodeIgniter\Filters\Filters->runBefore([...])
+ 8 SYSTEMPATH\CodeIgniter.php(479): CodeIgniter\Filters\Filters->run('xccmssys/getSystemInit', 'before')
+ 9 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+12 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-03-04 08:51:53 --> [Caused by] mysqli_sql_exception: Unknown column 'title' in 'field list'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 327.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(327): mysqli->query('SELECT `id`, `title`, `status`, `sort`, `href`, `icon`, `pid`, `cate_id`
+FROM `c_nav`
+WHERE `href` != \' \'
+ORDER BY `id` asc', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(738): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `id`, `title`, `status`, `sort`, `href`, `icon`, `pid`, `cate_id`
+FROM `c_nav`
+WHERE `href` != \' \'
+ORDER BY `id` asc')
+ 3 SYSTEMPATH\Database\BaseConnection.php(652): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `id`, `title`, `status`, `sort`, `href`, `icon`, `pid`, `cate_id`
+FROM `c_nav`
+WHERE `href` != \' \'
+ORDER BY `id` asc')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1649): CodeIgniter\Database\BaseConnection->query('SELECT `id`, `title`, `status`, `sort`, `href`, `icon`, `pid`, `cate_id`
+FROM `c_nav`
+WHERE `href` != :href:
+ORDER BY `id` asc', [...], false)
+ 5 SYSTEMPATH\Model.php(928): CodeIgniter\Database\BaseBuilder->get()
+ 6 APPPATH\Filters\isLoggedIn.php(31): CodeIgniter\Model->__call('get', [])
+ 7 SYSTEMPATH\Filters\Filters.php(241): App\Filters\isLoggedIn->before(Object(CodeIgniter\HTTP\IncomingRequest), null)
+ 8 SYSTEMPATH\Filters\Filters.php(221): CodeIgniter\Filters\Filters->runBefore([...])
+ 9 SYSTEMPATH\CodeIgniter.php(479): CodeIgniter\Filters\Filters->run('xccmssys/getSystemInit', 'before')
+10 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+12 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+13 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+DEBUG - 2025-03-04 08:52:44 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2025-03-04 08:52:44 --> [DEPRECATED] Optional parameter $sarray declared before required parameter $id is implicitly treated as a required parameter in ROOTPATH\SysAdmin\Models\baseInfo\NavModel.php on line 15.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(316): include_once('E:\\web\\XAMPP\\htdocs\\test\\system\\Debug\\Exceptions.php')
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(295): CodeIgniter\Autoloader\Autoloader->includeFile('E:\\web\\XAMPP\\htdocs\\test\\SysAdmin\\Models\\baseInfo\\NavModel.php')
+ 3 SYSTEMPATH\Autoloader\Autoloader.php(271): CodeIgniter\Autoloader\Autoloader->loadInNamespace('SysAdmin\\Models\\baseInfo\\NavModel')
+ 4 APPPATH\Filters\isLoggedIn.php(21): CodeIgniter\Autoloader\Autoloader->loadClass('SysAdmin\\Models\\baseInfo\\NavModel')
+ 5 SYSTEMPATH\Filters\Filters.php(241): App\Filters\isLoggedIn->before(Object(CodeIgniter\HTTP\IncomingRequest), null)
+ 6 SYSTEMPATH\Filters\Filters.php(221): CodeIgniter\Filters\Filters->runBefore([...])
+ 7 SYSTEMPATH\CodeIgniter.php(479): CodeIgniter\Filters\Filters->run('xccmssys/getSystemInit', 'before')
+ 8 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ERROR - 2025-03-04 08:52:44 --> mysqli_sql_exception: Unknown column 'title' in 'field list' in E:\web\XAMPP\htdocs\test\system\Database\MySQLi\Connection.php:327
+Stack trace:
+#0 E:\web\XAMPP\htdocs\test\system\Database\MySQLi\Connection.php(327): mysqli->query('SELECT `id`, `t...', 0)
+#1 E:\web\XAMPP\htdocs\test\system\Database\BaseConnection.php(738): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `id`, `t...')
+#2 E:\web\XAMPP\htdocs\test\system\Database\BaseConnection.php(652): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `id`, `t...')
+#3 E:\web\XAMPP\htdocs\test\system\Database\BaseBuilder.php(1649): CodeIgniter\Database\BaseConnection->query('SELECT `id`, `t...', Array, false)
+#4 E:\web\XAMPP\htdocs\test\system\Model.php(928): CodeIgniter\Database\BaseBuilder->get()
+#5 E:\web\XAMPP\htdocs\test\app\Filters\isLoggedIn.php(31): CodeIgniter\Model->__call('get', Array)
+#6 E:\web\XAMPP\htdocs\test\system\Filters\Filters.php(241): App\Filters\isLoggedIn->before(Object(CodeIgniter\HTTP\IncomingRequest), NULL)
+#7 E:\web\XAMPP\htdocs\test\system\Filters\Filters.php(221): CodeIgniter\Filters\Filters->runBefore(Array)
+#8 E:\web\XAMPP\htdocs\test\system\CodeIgniter.php(479): CodeIgniter\Filters\Filters->run('xccmssys/getSys...', 'before')
+#9 E:\web\XAMPP\htdocs\test\system\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 E:\web\XAMPP\htdocs\test\system\Boot.php(334): CodeIgniter\CodeIgniter->run()
+#11 E:\web\XAMPP\htdocs\test\system\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#12 E:\web\XAMPP\htdocs\test\public\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#13 {main}
+CRITICAL - 2025-03-04 08:52:44 --> CodeIgniter\Database\Exceptions\DatabaseException: Unknown column 'title' in 'field list'
+[Method: GET, Route: xccmssys/getSystemInit]
+in SYSTEMPATH\Database\BaseConnection.php on line 692.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(1649): CodeIgniter\Database\BaseConnection->query('SELECT `id`, `title`, `status`, `sort`, `href`, `icon`, `pid`, `cate_id`
+FROM `c_nav`
+WHERE `href` != :href:
+ORDER BY `id` asc', [...], false)
+ 2 SYSTEMPATH\Model.php(928): CodeIgniter\Database\BaseBuilder->get()
+ 3 APPPATH\Filters\isLoggedIn.php(31): CodeIgniter\Model->__call('get', [])
+ 4 SYSTEMPATH\Filters\Filters.php(241): App\Filters\isLoggedIn->before(Object(CodeIgniter\HTTP\IncomingRequest), null)
+ 5 SYSTEMPATH\Filters\Filters.php(221): CodeIgniter\Filters\Filters->runBefore([...])
+ 6 SYSTEMPATH\CodeIgniter.php(479): CodeIgniter\Filters\Filters->run('xccmssys/getSystemInit', 'before')
+ 7 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+10 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-03-04 08:52:44 --> [Caused by] CodeIgniter\Database\Exceptions\DatabaseException: Unknown column 'title' in 'field list'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 332.
+ 1 SYSTEMPATH\Database\BaseConnection.php(738): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `id`, `title`, `status`, `sort`, `href`, `icon`, `pid`, `cate_id`
+FROM `c_nav`
+WHERE `href` != \' \'
+ORDER BY `id` asc')
+ 2 SYSTEMPATH\Database\BaseConnection.php(652): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `id`, `title`, `status`, `sort`, `href`, `icon`, `pid`, `cate_id`
+FROM `c_nav`
+WHERE `href` != \' \'
+ORDER BY `id` asc')
+ 3 SYSTEMPATH\Database\BaseBuilder.php(1649): CodeIgniter\Database\BaseConnection->query('SELECT `id`, `title`, `status`, `sort`, `href`, `icon`, `pid`, `cate_id`
+FROM `c_nav`
+WHERE `href` != :href:
+ORDER BY `id` asc', [...], false)
+ 4 SYSTEMPATH\Model.php(928): CodeIgniter\Database\BaseBuilder->get()
+ 5 APPPATH\Filters\isLoggedIn.php(31): CodeIgniter\Model->__call('get', [])
+ 6 SYSTEMPATH\Filters\Filters.php(241): App\Filters\isLoggedIn->before(Object(CodeIgniter\HTTP\IncomingRequest), null)
+ 7 SYSTEMPATH\Filters\Filters.php(221): CodeIgniter\Filters\Filters->runBefore([...])
+ 8 SYSTEMPATH\CodeIgniter.php(479): CodeIgniter\Filters\Filters->run('xccmssys/getSystemInit', 'before')
+ 9 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+12 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-03-04 08:52:44 --> [Caused by] mysqli_sql_exception: Unknown column 'title' in 'field list'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 327.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(327): mysqli->query('SELECT `id`, `title`, `status`, `sort`, `href`, `icon`, `pid`, `cate_id`
+FROM `c_nav`
+WHERE `href` != \' \'
+ORDER BY `id` asc', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(738): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `id`, `title`, `status`, `sort`, `href`, `icon`, `pid`, `cate_id`
+FROM `c_nav`
+WHERE `href` != \' \'
+ORDER BY `id` asc')
+ 3 SYSTEMPATH\Database\BaseConnection.php(652): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `id`, `title`, `status`, `sort`, `href`, `icon`, `pid`, `cate_id`
+FROM `c_nav`
+WHERE `href` != \' \'
+ORDER BY `id` asc')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1649): CodeIgniter\Database\BaseConnection->query('SELECT `id`, `title`, `status`, `sort`, `href`, `icon`, `pid`, `cate_id`
+FROM `c_nav`
+WHERE `href` != :href:
+ORDER BY `id` asc', [...], false)
+ 5 SYSTEMPATH\Model.php(928): CodeIgniter\Database\BaseBuilder->get()
+ 6 APPPATH\Filters\isLoggedIn.php(31): CodeIgniter\Model->__call('get', [])
+ 7 SYSTEMPATH\Filters\Filters.php(241): App\Filters\isLoggedIn->before(Object(CodeIgniter\HTTP\IncomingRequest), null)
+ 8 SYSTEMPATH\Filters\Filters.php(221): CodeIgniter\Filters\Filters->runBefore([...])
+ 9 SYSTEMPATH\CodeIgniter.php(479): CodeIgniter\Filters\Filters->run('xccmssys/getSystemInit', 'before')
+10 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+12 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+13 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+DEBUG - 2025-03-04 08:54:01 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2025-03-04 08:54:01 --> [DEPRECATED] Creation of dynamic property SysAdmin\Controllers\Home::$session is deprecated in ROOTPATH\SysAdmin\Controllers\BaseController.php on line 51.
+ 1 ROOTPATH\SysAdmin\Controllers\Home.php(10): SysAdmin\Controllers\BaseController->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(903): SysAdmin\Controllers\Home->__construct()
+ 3 SYSTEMPATH\CodeIgniter.php(498): CodeIgniter\CodeIgniter->createController()
+ 4 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+WARNING - 2025-03-04 08:54:01 --> [DEPRECATED] Creation of dynamic property SysAdmin\Controllers\Home::$encrypter is deprecated in ROOTPATH\SysAdmin\Controllers\BaseController.php on line 52.
+ 1 ROOTPATH\SysAdmin\Controllers\Home.php(10): SysAdmin\Controllers\BaseController->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(903): SysAdmin\Controllers\Home->__construct()
+ 3 SYSTEMPATH\CodeIgniter.php(498): CodeIgniter\CodeIgniter->createController()
+ 4 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+DEBUG - 2025-03-04 08:54:06 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2025-03-04 08:54:06 --> [DEPRECATED] Creation of dynamic property SysAdmin\Controllers\Home::$session is deprecated in ROOTPATH\SysAdmin\Controllers\BaseController.php on line 51.
+ 1 ROOTPATH\SysAdmin\Controllers\Home.php(10): SysAdmin\Controllers\BaseController->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(903): SysAdmin\Controllers\Home->__construct()
+ 3 SYSTEMPATH\CodeIgniter.php(498): CodeIgniter\CodeIgniter->createController()
+ 4 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+WARNING - 2025-03-04 08:54:06 --> [DEPRECATED] Creation of dynamic property SysAdmin\Controllers\Home::$encrypter is deprecated in ROOTPATH\SysAdmin\Controllers\BaseController.php on line 52.
+ 1 ROOTPATH\SysAdmin\Controllers\Home.php(10): SysAdmin\Controllers\BaseController->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(903): SysAdmin\Controllers\Home->__construct()
+ 3 SYSTEMPATH\CodeIgniter.php(498): CodeIgniter\CodeIgniter->createController()
+ 4 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+DEBUG - 2025-03-04 08:54:06 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2025-03-04 08:54:06 --> [DEPRECATED] Creation of dynamic property SysAdmin\Controllers\Home::$session is deprecated in ROOTPATH\SysAdmin\Controllers\BaseController.php on line 51.
+ 1 ROOTPATH\SysAdmin\Controllers\Home.php(10): SysAdmin\Controllers\BaseController->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(903): SysAdmin\Controllers\Home->__construct()
+ 3 SYSTEMPATH\CodeIgniter.php(498): CodeIgniter\CodeIgniter->createController()
+ 4 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+WARNING - 2025-03-04 08:54:06 --> [DEPRECATED] Creation of dynamic property SysAdmin\Controllers\Home::$encrypter is deprecated in ROOTPATH\SysAdmin\Controllers\BaseController.php on line 52.
+ 1 ROOTPATH\SysAdmin\Controllers\Home.php(10): SysAdmin\Controllers\BaseController->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(903): SysAdmin\Controllers\Home->__construct()
+ 3 SYSTEMPATH\CodeIgniter.php(498): CodeIgniter\CodeIgniter->createController()
+ 4 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+DEBUG - 2025-03-04 08:54:06 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2025-03-04 08:54:06 --> [DEPRECATED] Creation of dynamic property SysAdmin\Controllers\Home::$session is deprecated in ROOTPATH\SysAdmin\Controllers\BaseController.php on line 51.
+ 1 ROOTPATH\SysAdmin\Controllers\Home.php(10): SysAdmin\Controllers\BaseController->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(903): SysAdmin\Controllers\Home->__construct()
+ 3 SYSTEMPATH\CodeIgniter.php(498): CodeIgniter\CodeIgniter->createController()
+ 4 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+WARNING - 2025-03-04 08:54:06 --> [DEPRECATED] Creation of dynamic property SysAdmin\Controllers\Home::$encrypter is deprecated in ROOTPATH\SysAdmin\Controllers\BaseController.php on line 52.
+ 1 ROOTPATH\SysAdmin\Controllers\Home.php(10): SysAdmin\Controllers\BaseController->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(903): SysAdmin\Controllers\Home->__construct()
+ 3 SYSTEMPATH\CodeIgniter.php(498): CodeIgniter\CodeIgniter->createController()
+ 4 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+DEBUG - 2025-03-04 08:54:15 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2025-03-04 08:54:15 --> [DEPRECATED] Creation of dynamic property SysAdmin\Controllers\sysCategory::$session is deprecated in ROOTPATH\SysAdmin\Controllers\BaseController.php on line 51.
+ 1 ROOTPATH\SysAdmin\Controllers\sysCategory.php(9): SysAdmin\Controllers\BaseController->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(903): SysAdmin\Controllers\sysCategory->__construct()
+ 3 SYSTEMPATH\CodeIgniter.php(498): CodeIgniter\CodeIgniter->createController()
+ 4 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+WARNING - 2025-03-04 08:54:15 --> [DEPRECATED] Creation of dynamic property SysAdmin\Controllers\sysCategory::$encrypter is deprecated in ROOTPATH\SysAdmin\Controllers\BaseController.php on line 52.
+ 1 ROOTPATH\SysAdmin\Controllers\sysCategory.php(9): SysAdmin\Controllers\BaseController->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(903): SysAdmin\Controllers\sysCategory->__construct()
+ 3 SYSTEMPATH\CodeIgniter.php(498): CodeIgniter\CodeIgniter->createController()
+ 4 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+WARNING - 2025-03-04 08:54:15 --> [DEPRECATED] Creation of dynamic property SysAdmin\Controllers\sysCategory::$nav_mold is deprecated in ROOTPATH\SysAdmin\Controllers\sysCategory.php on line 10.
+ 1 SYSTEMPATH\CodeIgniter.php(903): SysAdmin\Controllers\sysCategory->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(498): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+DEBUG - 2025-03-04 08:56:53 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2025-03-04 08:56:53 --> [DEPRECATED] Creation of dynamic property SysAdmin\Controllers\Nav::$session is deprecated in ROOTPATH\SysAdmin\Controllers\BaseController.php on line 51.
+ 1 ROOTPATH\SysAdmin\Controllers\Nav.php(8): SysAdmin\Controllers\BaseController->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(903): SysAdmin\Controllers\Nav->__construct()
+ 3 SYSTEMPATH\CodeIgniter.php(498): CodeIgniter\CodeIgniter->createController()
+ 4 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+WARNING - 2025-03-04 08:56:53 --> [DEPRECATED] Creation of dynamic property SysAdmin\Controllers\Nav::$encrypter is deprecated in ROOTPATH\SysAdmin\Controllers\BaseController.php on line 52.
+ 1 ROOTPATH\SysAdmin\Controllers\Nav.php(8): SysAdmin\Controllers\BaseController->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(903): SysAdmin\Controllers\Nav->__construct()
+ 3 SYSTEMPATH\CodeIgniter.php(498): CodeIgniter\CodeIgniter->createController()
+ 4 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+WARNING - 2025-03-04 08:56:53 --> [DEPRECATED] Creation of dynamic property SysAdmin\Controllers\Nav::$nav_mold is deprecated in ROOTPATH\SysAdmin\Controllers\Nav.php on line 9.
+ 1 SYSTEMPATH\CodeIgniter.php(903): SysAdmin\Controllers\Nav->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(498): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+WARNING - 2025-03-04 08:56:53 --> [DEPRECATED] Optional parameter $sarray declared before required parameter $id is implicitly treated as a required parameter in ROOTPATH\SysAdmin\Models\baseInfo\NavModel.php on line 15.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(316): include_once('E:\\web\\XAMPP\\htdocs\\test\\system\\Debug\\Exceptions.php')
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(295): CodeIgniter\Autoloader\Autoloader->includeFile('E:\\web\\XAMPP\\htdocs\\test\\SysAdmin\\Models\\baseInfo\\NavModel.php')
+ 3 SYSTEMPATH\Autoloader\Autoloader.php(271): CodeIgniter\Autoloader\Autoloader->loadInNamespace('SysAdmin\\Models\\baseInfo\\NavModel')
+ 4 ROOTPATH\SysAdmin\Controllers\Nav.php(24): CodeIgniter\Autoloader\Autoloader->loadClass('SysAdmin\\Models\\baseInfo\\NavModel')
+ 5 SYSTEMPATH\CodeIgniter.php(933): SysAdmin\Controllers\Nav->index()
+ 6 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(SysAdmin\Controllers\Nav))
+ 7 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+10 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ERROR - 2025-03-04 08:56:53 --> mysqli_sql_exception: Unknown column 'cat_name' in 'field list' in E:\web\XAMPP\htdocs\test\system\Database\MySQLi\Connection.php:327
+Stack trace:
+#0 E:\web\XAMPP\htdocs\test\system\Database\MySQLi\Connection.php(327): mysqli->query('SELECT `id`, `c...', 0)
+#1 E:\web\XAMPP\htdocs\test\system\Database\BaseConnection.php(738): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `id`, `c...')
+#2 E:\web\XAMPP\htdocs\test\system\Database\BaseConnection.php(652): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `id`, `c...')
+#3 E:\web\XAMPP\htdocs\test\system\Database\BaseBuilder.php(1649): CodeIgniter\Database\BaseConnection->query('SELECT `id`, `c...', Array, false)
+#4 E:\web\XAMPP\htdocs\test\system\Model.php(286): CodeIgniter\Database\BaseBuilder->get()
+#5 E:\web\XAMPP\htdocs\test\system\BaseModel.php(675): CodeIgniter\Model->doFindAll(0, 0)
+#6 E:\web\XAMPP\htdocs\test\SysAdmin\Models\baseInfo\NavModel.php(11): CodeIgniter\BaseModel->findAll()
+#7 E:\web\XAMPP\htdocs\test\SysAdmin\Controllers\Nav.php(25): SysAdmin\Models\baseInfo\NavModel->getNav('id,cat_name,cat...')
+#8 E:\web\XAMPP\htdocs\test\system\CodeIgniter.php(933): SysAdmin\Controllers\Nav->index()
+#9 E:\web\XAMPP\htdocs\test\system\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(SysAdmin\Controllers\Nav))
+#10 E:\web\XAMPP\htdocs\test\system\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 E:\web\XAMPP\htdocs\test\system\Boot.php(334): CodeIgniter\CodeIgniter->run()
+#12 E:\web\XAMPP\htdocs\test\system\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#13 E:\web\XAMPP\htdocs\test\public\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#14 {main}
+CRITICAL - 2025-03-04 08:56:53 --> CodeIgniter\Database\Exceptions\DatabaseException: Unknown column 'cat_name' in 'field list'
+[Method: GET, Route: xccmssys/nav]
+in SYSTEMPATH\Database\BaseConnection.php on line 692.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(1649): CodeIgniter\Database\BaseConnection->query('SELECT `id`, `cat_name`, `cat_type`, `sort_order`, `is_show`, `status`, `pid`
+FROM `c_nav`
+ORDER BY `sort` desc, `id` asc', [], false)
+ 2 SYSTEMPATH\Model.php(286): CodeIgniter\Database\BaseBuilder->get()
+ 3 SYSTEMPATH\BaseModel.php(675): CodeIgniter\Model->doFindAll(0, 0)
+ 4 ROOTPATH\SysAdmin\Models\baseInfo\NavModel.php(11): CodeIgniter\BaseModel->findAll()
+ 5 ROOTPATH\SysAdmin\Controllers\Nav.php(25): SysAdmin\Models\baseInfo\NavModel->getNav('id,cat_name,cat_type,sort_order,is_show,status,pid')
+ 6 SYSTEMPATH\CodeIgniter.php(933): SysAdmin\Controllers\Nav->index()
+ 7 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(SysAdmin\Controllers\Nav))
+ 8 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-03-04 08:56:53 --> [Caused by] CodeIgniter\Database\Exceptions\DatabaseException: Unknown column 'cat_name' in 'field list'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 332.
+ 1 SYSTEMPATH\Database\BaseConnection.php(738): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `id`, `cat_name`, `cat_type`, `sort_order`, `is_show`, `status`, `pid`
+FROM `c_nav`
+ORDER BY `sort` desc, `id` asc')
+ 2 SYSTEMPATH\Database\BaseConnection.php(652): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `id`, `cat_name`, `cat_type`, `sort_order`, `is_show`, `status`, `pid`
+FROM `c_nav`
+ORDER BY `sort` desc, `id` asc')
+ 3 SYSTEMPATH\Database\BaseBuilder.php(1649): CodeIgniter\Database\BaseConnection->query('SELECT `id`, `cat_name`, `cat_type`, `sort_order`, `is_show`, `status`, `pid`
+FROM `c_nav`
+ORDER BY `sort` desc, `id` asc', [], false)
+ 4 SYSTEMPATH\Model.php(286): CodeIgniter\Database\BaseBuilder->get()
+ 5 SYSTEMPATH\BaseModel.php(675): CodeIgniter\Model->doFindAll(0, 0)
+ 6 ROOTPATH\SysAdmin\Models\baseInfo\NavModel.php(11): CodeIgniter\BaseModel->findAll()
+ 7 ROOTPATH\SysAdmin\Controllers\Nav.php(25): SysAdmin\Models\baseInfo\NavModel->getNav('id,cat_name,cat_type,sort_order,is_show,status,pid')
+ 8 SYSTEMPATH\CodeIgniter.php(933): SysAdmin\Controllers\Nav->index()
+ 9 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(SysAdmin\Controllers\Nav))
+10 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+12 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+13 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-03-04 08:56:53 --> [Caused by] mysqli_sql_exception: Unknown column 'cat_name' in 'field list'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 327.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(327): mysqli->query('SELECT `id`, `cat_name`, `cat_type`, `sort_order`, `is_show`, `status`, `pid`
+FROM `c_nav`
+ORDER BY `sort` desc, `id` asc', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(738): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `id`, `cat_name`, `cat_type`, `sort_order`, `is_show`, `status`, `pid`
+FROM `c_nav`
+ORDER BY `sort` desc, `id` asc')
+ 3 SYSTEMPATH\Database\BaseConnection.php(652): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `id`, `cat_name`, `cat_type`, `sort_order`, `is_show`, `status`, `pid`
+FROM `c_nav`
+ORDER BY `sort` desc, `id` asc')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1649): CodeIgniter\Database\BaseConnection->query('SELECT `id`, `cat_name`, `cat_type`, `sort_order`, `is_show`, `status`, `pid`
+FROM `c_nav`
+ORDER BY `sort` desc, `id` asc', [], false)
+ 5 SYSTEMPATH\Model.php(286): CodeIgniter\Database\BaseBuilder->get()
+ 6 SYSTEMPATH\BaseModel.php(675): CodeIgniter\Model->doFindAll(0, 0)
+ 7 ROOTPATH\SysAdmin\Models\baseInfo\NavModel.php(11): CodeIgniter\BaseModel->findAll()
+ 8 ROOTPATH\SysAdmin\Controllers\Nav.php(25): SysAdmin\Models\baseInfo\NavModel->getNav('id,cat_name,cat_type,sort_order,is_show,status,pid')
+ 9 SYSTEMPATH\CodeIgniter.php(933): SysAdmin\Controllers\Nav->index()
+10 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(SysAdmin\Controllers\Nav))
+11 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+12 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+13 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+14 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+DEBUG - 2025-03-04 09:02:11 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2025-03-04 09:02:11 --> [DEPRECATED] Creation of dynamic property SysAdmin\Controllers\Nav::$session is deprecated in ROOTPATH\SysAdmin\Controllers\BaseController.php on line 51.
+ 1 ROOTPATH\SysAdmin\Controllers\Nav.php(8): SysAdmin\Controllers\BaseController->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(903): SysAdmin\Controllers\Nav->__construct()
+ 3 SYSTEMPATH\CodeIgniter.php(498): CodeIgniter\CodeIgniter->createController()
+ 4 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+WARNING - 2025-03-04 09:02:11 --> [DEPRECATED] Creation of dynamic property SysAdmin\Controllers\Nav::$encrypter is deprecated in ROOTPATH\SysAdmin\Controllers\BaseController.php on line 52.
+ 1 ROOTPATH\SysAdmin\Controllers\Nav.php(8): SysAdmin\Controllers\BaseController->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(903): SysAdmin\Controllers\Nav->__construct()
+ 3 SYSTEMPATH\CodeIgniter.php(498): CodeIgniter\CodeIgniter->createController()
+ 4 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+WARNING - 2025-03-04 09:02:11 --> [DEPRECATED] Creation of dynamic property SysAdmin\Controllers\Nav::$nav_mold is deprecated in ROOTPATH\SysAdmin\Controllers\Nav.php on line 9.
+ 1 SYSTEMPATH\CodeIgniter.php(903): SysAdmin\Controllers\Nav->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(498): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+WARNING - 2025-03-04 09:02:11 --> [DEPRECATED] Optional parameter $sarray declared before required parameter $id is implicitly treated as a required parameter in ROOTPATH\SysAdmin\Models\baseInfo\NavModel.php on line 17.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(316): include_once('E:\\web\\XAMPP\\htdocs\\test\\system\\Debug\\Exceptions.php')
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(295): CodeIgniter\Autoloader\Autoloader->includeFile('E:\\web\\XAMPP\\htdocs\\test\\SysAdmin\\Models\\baseInfo\\NavModel.php')
+ 3 SYSTEMPATH\Autoloader\Autoloader.php(271): CodeIgniter\Autoloader\Autoloader->loadInNamespace('SysAdmin\\Models\\baseInfo\\NavModel')
+ 4 ROOTPATH\SysAdmin\Controllers\Nav.php(24): CodeIgniter\Autoloader\Autoloader->loadClass('SysAdmin\\Models\\baseInfo\\NavModel')
+ 5 SYSTEMPATH\CodeIgniter.php(933): SysAdmin\Controllers\Nav->index()
+ 6 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(SysAdmin\Controllers\Nav))
+ 7 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+10 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ERROR - 2025-03-04 09:02:11 --> mysqli_sql_exception: Unknown column 'lable' in 'field list' in E:\web\XAMPP\htdocs\test\system\Database\MySQLi\Connection.php:327
+Stack trace:
+#0 E:\web\XAMPP\htdocs\test\system\Database\MySQLi\Connection.php(327): mysqli->query('SELECT `id`, `l...', 0)
+#1 E:\web\XAMPP\htdocs\test\system\Database\BaseConnection.php(738): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `id`, `l...')
+#2 E:\web\XAMPP\htdocs\test\system\Database\BaseConnection.php(652): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `id`, `l...')
+#3 E:\web\XAMPP\htdocs\test\system\Database\BaseBuilder.php(1649): CodeIgniter\Database\BaseConnection->query('SELECT `id`, `l...', Array, false)
+#4 E:\web\XAMPP\htdocs\test\system\Model.php(286): CodeIgniter\Database\BaseBuilder->get()
+#5 E:\web\XAMPP\htdocs\test\system\BaseModel.php(675): CodeIgniter\Model->doFindAll(0, 0)
+#6 E:\web\XAMPP\htdocs\test\SysAdmin\Models\baseInfo\NavModel.php(13): CodeIgniter\BaseModel->findAll()
+#7 E:\web\XAMPP\htdocs\test\SysAdmin\Controllers\Nav.php(25): SysAdmin\Models\baseInfo\NavModel->getNav('id,lable,n_type...')
+#8 E:\web\XAMPP\htdocs\test\system\CodeIgniter.php(933): SysAdmin\Controllers\Nav->index()
+#9 E:\web\XAMPP\htdocs\test\system\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(SysAdmin\Controllers\Nav))
+#10 E:\web\XAMPP\htdocs\test\system\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 E:\web\XAMPP\htdocs\test\system\Boot.php(334): CodeIgniter\CodeIgniter->run()
+#12 E:\web\XAMPP\htdocs\test\system\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#13 E:\web\XAMPP\htdocs\test\public\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#14 {main}
+CRITICAL - 2025-03-04 09:02:11 --> CodeIgniter\Database\Exceptions\DatabaseException: Unknown column 'lable' in 'field list'
+[Method: GET, Route: xccmssys/nav]
+in SYSTEMPATH\Database\BaseConnection.php on line 692.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(1649): CodeIgniter\Database\BaseConnection->query('SELECT `id`, `lable`, `n_type`, `sort_order`, `status`, `pid`, `target`
+FROM `c_nav`
+ORDER BY `sort_order` desc, `id` asc', [], false)
+ 2 SYSTEMPATH\Model.php(286): CodeIgniter\Database\BaseBuilder->get()
+ 3 SYSTEMPATH\BaseModel.php(675): CodeIgniter\Model->doFindAll(0, 0)
+ 4 ROOTPATH\SysAdmin\Models\baseInfo\NavModel.php(13): CodeIgniter\BaseModel->findAll()
+ 5 ROOTPATH\SysAdmin\Controllers\Nav.php(25): SysAdmin\Models\baseInfo\NavModel->getNav('id,lable,n_type,sort_order,status,pid,target')
+ 6 SYSTEMPATH\CodeIgniter.php(933): SysAdmin\Controllers\Nav->index()
+ 7 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(SysAdmin\Controllers\Nav))
+ 8 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-03-04 09:02:11 --> [Caused by] CodeIgniter\Database\Exceptions\DatabaseException: Unknown column 'lable' in 'field list'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 332.
+ 1 SYSTEMPATH\Database\BaseConnection.php(738): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `id`, `lable`, `n_type`, `sort_order`, `status`, `pid`, `target`
+FROM `c_nav`
+ORDER BY `sort_order` desc, `id` asc')
+ 2 SYSTEMPATH\Database\BaseConnection.php(652): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `id`, `lable`, `n_type`, `sort_order`, `status`, `pid`, `target`
+FROM `c_nav`
+ORDER BY `sort_order` desc, `id` asc')
+ 3 SYSTEMPATH\Database\BaseBuilder.php(1649): CodeIgniter\Database\BaseConnection->query('SELECT `id`, `lable`, `n_type`, `sort_order`, `status`, `pid`, `target`
+FROM `c_nav`
+ORDER BY `sort_order` desc, `id` asc', [], false)
+ 4 SYSTEMPATH\Model.php(286): CodeIgniter\Database\BaseBuilder->get()
+ 5 SYSTEMPATH\BaseModel.php(675): CodeIgniter\Model->doFindAll(0, 0)
+ 6 ROOTPATH\SysAdmin\Models\baseInfo\NavModel.php(13): CodeIgniter\BaseModel->findAll()
+ 7 ROOTPATH\SysAdmin\Controllers\Nav.php(25): SysAdmin\Models\baseInfo\NavModel->getNav('id,lable,n_type,sort_order,status,pid,target')
+ 8 SYSTEMPATH\CodeIgniter.php(933): SysAdmin\Controllers\Nav->index()
+ 9 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(SysAdmin\Controllers\Nav))
+10 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+12 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+13 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-03-04 09:02:11 --> [Caused by] mysqli_sql_exception: Unknown column 'lable' in 'field list'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 327.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(327): mysqli->query('SELECT `id`, `lable`, `n_type`, `sort_order`, `status`, `pid`, `target`
+FROM `c_nav`
+ORDER BY `sort_order` desc, `id` asc', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(738): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `id`, `lable`, `n_type`, `sort_order`, `status`, `pid`, `target`
+FROM `c_nav`
+ORDER BY `sort_order` desc, `id` asc')
+ 3 SYSTEMPATH\Database\BaseConnection.php(652): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `id`, `lable`, `n_type`, `sort_order`, `status`, `pid`, `target`
+FROM `c_nav`
+ORDER BY `sort_order` desc, `id` asc')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1649): CodeIgniter\Database\BaseConnection->query('SELECT `id`, `lable`, `n_type`, `sort_order`, `status`, `pid`, `target`
+FROM `c_nav`
+ORDER BY `sort_order` desc, `id` asc', [], false)
+ 5 SYSTEMPATH\Model.php(286): CodeIgniter\Database\BaseBuilder->get()
+ 6 SYSTEMPATH\BaseModel.php(675): CodeIgniter\Model->doFindAll(0, 0)
+ 7 ROOTPATH\SysAdmin\Models\baseInfo\NavModel.php(13): CodeIgniter\BaseModel->findAll()
+ 8 ROOTPATH\SysAdmin\Controllers\Nav.php(25): SysAdmin\Models\baseInfo\NavModel->getNav('id,lable,n_type,sort_order,status,pid,target')
+ 9 SYSTEMPATH\CodeIgniter.php(933): SysAdmin\Controllers\Nav->index()
+10 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(SysAdmin\Controllers\Nav))
+11 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+12 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+13 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+14 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+DEBUG - 2025-03-04 09:02:34 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2025-03-04 09:02:34 --> [DEPRECATED] Creation of dynamic property SysAdmin\Controllers\Nav::$session is deprecated in ROOTPATH\SysAdmin\Controllers\BaseController.php on line 51.
+ 1 ROOTPATH\SysAdmin\Controllers\Nav.php(8): SysAdmin\Controllers\BaseController->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(903): SysAdmin\Controllers\Nav->__construct()
+ 3 SYSTEMPATH\CodeIgniter.php(498): CodeIgniter\CodeIgniter->createController()
+ 4 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+WARNING - 2025-03-04 09:02:34 --> [DEPRECATED] Creation of dynamic property SysAdmin\Controllers\Nav::$encrypter is deprecated in ROOTPATH\SysAdmin\Controllers\BaseController.php on line 52.
+ 1 ROOTPATH\SysAdmin\Controllers\Nav.php(8): SysAdmin\Controllers\BaseController->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(903): SysAdmin\Controllers\Nav->__construct()
+ 3 SYSTEMPATH\CodeIgniter.php(498): CodeIgniter\CodeIgniter->createController()
+ 4 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+WARNING - 2025-03-04 09:02:34 --> [DEPRECATED] Creation of dynamic property SysAdmin\Controllers\Nav::$nav_mold is deprecated in ROOTPATH\SysAdmin\Controllers\Nav.php on line 9.
+ 1 SYSTEMPATH\CodeIgniter.php(903): SysAdmin\Controllers\Nav->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(498): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+WARNING - 2025-03-04 09:02:34 --> [DEPRECATED] Optional parameter $sarray declared before required parameter $id is implicitly treated as a required parameter in ROOTPATH\SysAdmin\Models\baseInfo\NavModel.php on line 17.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(316): include_once('E:\\web\\XAMPP\\htdocs\\test\\system\\Debug\\Exceptions.php')
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(295): CodeIgniter\Autoloader\Autoloader->includeFile('E:\\web\\XAMPP\\htdocs\\test\\SysAdmin\\Models\\baseInfo\\NavModel.php')
+ 3 SYSTEMPATH\Autoloader\Autoloader.php(271): CodeIgniter\Autoloader\Autoloader->loadInNamespace('SysAdmin\\Models\\baseInfo\\NavModel')
+ 4 ROOTPATH\SysAdmin\Controllers\Nav.php(24): CodeIgniter\Autoloader\Autoloader->loadClass('SysAdmin\\Models\\baseInfo\\NavModel')
+ 5 SYSTEMPATH\CodeIgniter.php(933): SysAdmin\Controllers\Nav->index()
+ 6 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(SysAdmin\Controllers\Nav))
+ 7 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+10 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-03-04 09:02:34 --> CodeIgniter\View\Exceptions\ViewException: Invalid file: "baseInfo/nav.php"
+[Method: GET, Route: xccmssys/nav]
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 39.
+ 1 SYSTEMPATH\View\View.php(212): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('baseInfo/nav.php')
+ 2 SYSTEMPATH\Common.php(1173): CodeIgniter\View\View->render('baseInfo/nav', [], true)
+ 3 ROOTPATH\SysAdmin\Controllers\Nav.php(33): view('baseInfo/nav', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(933): SysAdmin\Controllers\Nav->index()
+ 5 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(SysAdmin\Controllers\Nav))
+ 6 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+DEBUG - 2025-03-04 09:03:02 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2025-03-04 09:03:02 --> [DEPRECATED] Creation of dynamic property SysAdmin\Controllers\Nav::$session is deprecated in ROOTPATH\SysAdmin\Controllers\BaseController.php on line 51.
+ 1 ROOTPATH\SysAdmin\Controllers\Nav.php(8): SysAdmin\Controllers\BaseController->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(903): SysAdmin\Controllers\Nav->__construct()
+ 3 SYSTEMPATH\CodeIgniter.php(498): CodeIgniter\CodeIgniter->createController()
+ 4 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+WARNING - 2025-03-04 09:03:02 --> [DEPRECATED] Creation of dynamic property SysAdmin\Controllers\Nav::$encrypter is deprecated in ROOTPATH\SysAdmin\Controllers\BaseController.php on line 52.
+ 1 ROOTPATH\SysAdmin\Controllers\Nav.php(8): SysAdmin\Controllers\BaseController->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(903): SysAdmin\Controllers\Nav->__construct()
+ 3 SYSTEMPATH\CodeIgniter.php(498): CodeIgniter\CodeIgniter->createController()
+ 4 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+WARNING - 2025-03-04 09:03:02 --> [DEPRECATED] Creation of dynamic property SysAdmin\Controllers\Nav::$nav_mold is deprecated in ROOTPATH\SysAdmin\Controllers\Nav.php on line 9.
+ 1 SYSTEMPATH\CodeIgniter.php(903): SysAdmin\Controllers\Nav->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(498): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+WARNING - 2025-03-04 09:03:02 --> [DEPRECATED] Optional parameter $sarray declared before required parameter $id is implicitly treated as a required parameter in ROOTPATH\SysAdmin\Models\baseInfo\NavModel.php on line 17.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(316): include_once('E:\\web\\XAMPP\\htdocs\\test\\system\\Debug\\Exceptions.php')
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(295): CodeIgniter\Autoloader\Autoloader->includeFile('E:\\web\\XAMPP\\htdocs\\test\\SysAdmin\\Models\\baseInfo\\NavModel.php')
+ 3 SYSTEMPATH\Autoloader\Autoloader.php(271): CodeIgniter\Autoloader\Autoloader->loadInNamespace('SysAdmin\\Models\\baseInfo\\NavModel')
+ 4 ROOTPATH\SysAdmin\Controllers\Nav.php(24): CodeIgniter\Autoloader\Autoloader->loadClass('SysAdmin\\Models\\baseInfo\\NavModel')
+ 5 SYSTEMPATH\CodeIgniter.php(933): SysAdmin\Controllers\Nav->index()
+ 6 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(SysAdmin\Controllers\Nav))
+ 7 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+10 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-03-04 09:03:02 --> CodeIgniter\View\Exceptions\ViewException: Invalid file: "baseInfo\nav.php"
+[Method: GET, Route: xccmssys/nav]
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 39.
+ 1 SYSTEMPATH\View\View.php(212): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('baseInfo\\nav.php')
+ 2 SYSTEMPATH\Common.php(1173): CodeIgniter\View\View->render('baseInfo\\nav', [], true)
+ 3 ROOTPATH\SysAdmin\Controllers\Nav.php(33): view('baseInfo\\nav', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(933): SysAdmin\Controllers\Nav->index()
+ 5 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(SysAdmin\Controllers\Nav))
+ 6 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+DEBUG - 2025-03-04 09:03:04 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2025-03-04 09:03:04 --> [DEPRECATED] Creation of dynamic property SysAdmin\Controllers\Nav::$session is deprecated in ROOTPATH\SysAdmin\Controllers\BaseController.php on line 51.
+ 1 ROOTPATH\SysAdmin\Controllers\Nav.php(8): SysAdmin\Controllers\BaseController->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(903): SysAdmin\Controllers\Nav->__construct()
+ 3 SYSTEMPATH\CodeIgniter.php(498): CodeIgniter\CodeIgniter->createController()
+ 4 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+WARNING - 2025-03-04 09:03:04 --> [DEPRECATED] Creation of dynamic property SysAdmin\Controllers\Nav::$encrypter is deprecated in ROOTPATH\SysAdmin\Controllers\BaseController.php on line 52.
+ 1 ROOTPATH\SysAdmin\Controllers\Nav.php(8): SysAdmin\Controllers\BaseController->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(903): SysAdmin\Controllers\Nav->__construct()
+ 3 SYSTEMPATH\CodeIgniter.php(498): CodeIgniter\CodeIgniter->createController()
+ 4 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+WARNING - 2025-03-04 09:03:04 --> [DEPRECATED] Creation of dynamic property SysAdmin\Controllers\Nav::$nav_mold is deprecated in ROOTPATH\SysAdmin\Controllers\Nav.php on line 9.
+ 1 SYSTEMPATH\CodeIgniter.php(903): SysAdmin\Controllers\Nav->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(498): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+WARNING - 2025-03-04 09:03:04 --> [DEPRECATED] Optional parameter $sarray declared before required parameter $id is implicitly treated as a required parameter in ROOTPATH\SysAdmin\Models\baseInfo\NavModel.php on line 17.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(316): include_once('E:\\web\\XAMPP\\htdocs\\test\\system\\Debug\\Exceptions.php')
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(295): CodeIgniter\Autoloader\Autoloader->includeFile('E:\\web\\XAMPP\\htdocs\\test\\SysAdmin\\Models\\baseInfo\\NavModel.php')
+ 3 SYSTEMPATH\Autoloader\Autoloader.php(271): CodeIgniter\Autoloader\Autoloader->loadInNamespace('SysAdmin\\Models\\baseInfo\\NavModel')
+ 4 ROOTPATH\SysAdmin\Controllers\Nav.php(24): CodeIgniter\Autoloader\Autoloader->loadClass('SysAdmin\\Models\\baseInfo\\NavModel')
+ 5 SYSTEMPATH\CodeIgniter.php(933): SysAdmin\Controllers\Nav->index()
+ 6 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(SysAdmin\Controllers\Nav))
+ 7 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+10 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-03-04 09:03:04 --> CodeIgniter\View\Exceptions\ViewException: Invalid file: "baseInfo\nav.php"
+[Method: GET, Route: xccmssys/nav]
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 39.
+ 1 SYSTEMPATH\View\View.php(212): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('baseInfo\\nav.php')
+ 2 SYSTEMPATH\Common.php(1173): CodeIgniter\View\View->render('baseInfo\\nav', [], true)
+ 3 ROOTPATH\SysAdmin\Controllers\Nav.php(33): view('baseInfo\\nav', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(933): SysAdmin\Controllers\Nav->index()
+ 5 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(SysAdmin\Controllers\Nav))
+ 6 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+DEBUG - 2025-03-04 09:03:06 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2025-03-04 09:03:06 --> [DEPRECATED] Creation of dynamic property SysAdmin\Controllers\Nav::$session is deprecated in ROOTPATH\SysAdmin\Controllers\BaseController.php on line 51.
+ 1 ROOTPATH\SysAdmin\Controllers\Nav.php(8): SysAdmin\Controllers\BaseController->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(903): SysAdmin\Controllers\Nav->__construct()
+ 3 SYSTEMPATH\CodeIgniter.php(498): CodeIgniter\CodeIgniter->createController()
+ 4 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+WARNING - 2025-03-04 09:03:06 --> [DEPRECATED] Creation of dynamic property SysAdmin\Controllers\Nav::$encrypter is deprecated in ROOTPATH\SysAdmin\Controllers\BaseController.php on line 52.
+ 1 ROOTPATH\SysAdmin\Controllers\Nav.php(8): SysAdmin\Controllers\BaseController->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(903): SysAdmin\Controllers\Nav->__construct()
+ 3 SYSTEMPATH\CodeIgniter.php(498): CodeIgniter\CodeIgniter->createController()
+ 4 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+WARNING - 2025-03-04 09:03:06 --> [DEPRECATED] Creation of dynamic property SysAdmin\Controllers\Nav::$nav_mold is deprecated in ROOTPATH\SysAdmin\Controllers\Nav.php on line 9.
+ 1 SYSTEMPATH\CodeIgniter.php(903): SysAdmin\Controllers\Nav->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(498): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+WARNING - 2025-03-04 09:03:06 --> [DEPRECATED] Optional parameter $sarray declared before required parameter $id is implicitly treated as a required parameter in ROOTPATH\SysAdmin\Models\baseInfo\NavModel.php on line 17.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(316): include_once('E:\\web\\XAMPP\\htdocs\\test\\system\\Debug\\Exceptions.php')
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(295): CodeIgniter\Autoloader\Autoloader->includeFile('E:\\web\\XAMPP\\htdocs\\test\\SysAdmin\\Models\\baseInfo\\NavModel.php')
+ 3 SYSTEMPATH\Autoloader\Autoloader.php(271): CodeIgniter\Autoloader\Autoloader->loadInNamespace('SysAdmin\\Models\\baseInfo\\NavModel')
+ 4 ROOTPATH\SysAdmin\Controllers\Nav.php(24): CodeIgniter\Autoloader\Autoloader->loadClass('SysAdmin\\Models\\baseInfo\\NavModel')
+ 5 SYSTEMPATH\CodeIgniter.php(933): SysAdmin\Controllers\Nav->index()
+ 6 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(SysAdmin\Controllers\Nav))
+ 7 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+10 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-03-04 09:03:06 --> CodeIgniter\View\Exceptions\ViewException: Invalid file: "baseInfo\nav.php"
+[Method: GET, Route: xccmssys/nav]
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 39.
+ 1 SYSTEMPATH\View\View.php(212): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('baseInfo\\nav.php')
+ 2 SYSTEMPATH\Common.php(1173): CodeIgniter\View\View->render('baseInfo\\nav', [], true)
+ 3 ROOTPATH\SysAdmin\Controllers\Nav.php(33): view('baseInfo\\nav', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(933): SysAdmin\Controllers\Nav->index()
+ 5 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(SysAdmin\Controllers\Nav))
+ 6 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+DEBUG - 2025-03-04 09:03:53 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2025-03-04 09:03:53 --> [DEPRECATED] Creation of dynamic property SysAdmin\Controllers\Nav::$session is deprecated in ROOTPATH\SysAdmin\Controllers\BaseController.php on line 51.
+ 1 ROOTPATH\SysAdmin\Controllers\Nav.php(8): SysAdmin\Controllers\BaseController->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(903): SysAdmin\Controllers\Nav->__construct()
+ 3 SYSTEMPATH\CodeIgniter.php(498): CodeIgniter\CodeIgniter->createController()
+ 4 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+WARNING - 2025-03-04 09:03:53 --> [DEPRECATED] Creation of dynamic property SysAdmin\Controllers\Nav::$encrypter is deprecated in ROOTPATH\SysAdmin\Controllers\BaseController.php on line 52.
+ 1 ROOTPATH\SysAdmin\Controllers\Nav.php(8): SysAdmin\Controllers\BaseController->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(903): SysAdmin\Controllers\Nav->__construct()
+ 3 SYSTEMPATH\CodeIgniter.php(498): CodeIgniter\CodeIgniter->createController()
+ 4 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+WARNING - 2025-03-04 09:03:53 --> [DEPRECATED] Creation of dynamic property SysAdmin\Controllers\Nav::$nav_mold is deprecated in ROOTPATH\SysAdmin\Controllers\Nav.php on line 9.
+ 1 SYSTEMPATH\CodeIgniter.php(903): SysAdmin\Controllers\Nav->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(498): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+WARNING - 2025-03-04 09:03:53 --> [DEPRECATED] Optional parameter $sarray declared before required parameter $id is implicitly treated as a required parameter in ROOTPATH\SysAdmin\Models\baseInfo\NavModel.php on line 17.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(316): include_once('E:\\web\\XAMPP\\htdocs\\test\\system\\Debug\\Exceptions.php')
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(295): CodeIgniter\Autoloader\Autoloader->includeFile('E:\\web\\XAMPP\\htdocs\\test\\SysAdmin\\Models\\baseInfo\\NavModel.php')
+ 3 SYSTEMPATH\Autoloader\Autoloader.php(271): CodeIgniter\Autoloader\Autoloader->loadInNamespace('SysAdmin\\Models\\baseInfo\\NavModel')
+ 4 ROOTPATH\SysAdmin\Controllers\Nav.php(24): CodeIgniter\Autoloader\Autoloader->loadClass('SysAdmin\\Models\\baseInfo\\NavModel')
+ 5 SYSTEMPATH\CodeIgniter.php(933): SysAdmin\Controllers\Nav->index()
+ 6 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(SysAdmin\Controllers\Nav))
+ 7 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+10 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-03-04 09:03:53 --> CodeIgniter\View\Exceptions\ViewException: Invalid file: "baseInfo/nav.php"
+[Method: GET, Route: xccmssys/nav]
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 39.
+ 1 SYSTEMPATH\View\View.php(212): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('baseInfo/nav.php')
+ 2 SYSTEMPATH\Common.php(1173): CodeIgniter\View\View->render('baseInfo/nav', [], true)
+ 3 ROOTPATH\SysAdmin\Controllers\Nav.php(33): view('baseInfo/nav', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(933): SysAdmin\Controllers\Nav->index()
+ 5 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(SysAdmin\Controllers\Nav))
+ 6 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+DEBUG - 2025-03-04 09:03:55 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2025-03-04 09:03:55 --> [DEPRECATED] Creation of dynamic property SysAdmin\Controllers\Nav::$session is deprecated in ROOTPATH\SysAdmin\Controllers\BaseController.php on line 51.
+ 1 ROOTPATH\SysAdmin\Controllers\Nav.php(8): SysAdmin\Controllers\BaseController->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(903): SysAdmin\Controllers\Nav->__construct()
+ 3 SYSTEMPATH\CodeIgniter.php(498): CodeIgniter\CodeIgniter->createController()
+ 4 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+WARNING - 2025-03-04 09:03:55 --> [DEPRECATED] Creation of dynamic property SysAdmin\Controllers\Nav::$encrypter is deprecated in ROOTPATH\SysAdmin\Controllers\BaseController.php on line 52.
+ 1 ROOTPATH\SysAdmin\Controllers\Nav.php(8): SysAdmin\Controllers\BaseController->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(903): SysAdmin\Controllers\Nav->__construct()
+ 3 SYSTEMPATH\CodeIgniter.php(498): CodeIgniter\CodeIgniter->createController()
+ 4 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+WARNING - 2025-03-04 09:03:55 --> [DEPRECATED] Creation of dynamic property SysAdmin\Controllers\Nav::$nav_mold is deprecated in ROOTPATH\SysAdmin\Controllers\Nav.php on line 9.
+ 1 SYSTEMPATH\CodeIgniter.php(903): SysAdmin\Controllers\Nav->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(498): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+WARNING - 2025-03-04 09:03:55 --> [DEPRECATED] Optional parameter $sarray declared before required parameter $id is implicitly treated as a required parameter in ROOTPATH\SysAdmin\Models\baseInfo\NavModel.php on line 17.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(316): include_once('E:\\web\\XAMPP\\htdocs\\test\\system\\Debug\\Exceptions.php')
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(295): CodeIgniter\Autoloader\Autoloader->includeFile('E:\\web\\XAMPP\\htdocs\\test\\SysAdmin\\Models\\baseInfo\\NavModel.php')
+ 3 SYSTEMPATH\Autoloader\Autoloader.php(271): CodeIgniter\Autoloader\Autoloader->loadInNamespace('SysAdmin\\Models\\baseInfo\\NavModel')
+ 4 ROOTPATH\SysAdmin\Controllers\Nav.php(24): CodeIgniter\Autoloader\Autoloader->loadClass('SysAdmin\\Models\\baseInfo\\NavModel')
+ 5 SYSTEMPATH\CodeIgniter.php(933): SysAdmin\Controllers\Nav->index()
+ 6 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(SysAdmin\Controllers\Nav))
+ 7 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+10 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-03-04 09:03:55 --> CodeIgniter\View\Exceptions\ViewException: Invalid file: "baseInfo/nav.php"
+[Method: GET, Route: xccmssys/nav]
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 39.
+ 1 SYSTEMPATH\View\View.php(212): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('baseInfo/nav.php')
+ 2 SYSTEMPATH\Common.php(1173): CodeIgniter\View\View->render('baseInfo/nav', [], true)
+ 3 ROOTPATH\SysAdmin\Controllers\Nav.php(33): view('baseInfo/nav', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(933): SysAdmin\Controllers\Nav->index()
+ 5 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(SysAdmin\Controllers\Nav))
+ 6 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+DEBUG - 2025-03-04 09:03:56 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2025-03-04 09:03:56 --> [DEPRECATED] Creation of dynamic property SysAdmin\Controllers\Nav::$session is deprecated in ROOTPATH\SysAdmin\Controllers\BaseController.php on line 51.
+ 1 ROOTPATH\SysAdmin\Controllers\Nav.php(8): SysAdmin\Controllers\BaseController->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(903): SysAdmin\Controllers\Nav->__construct()
+ 3 SYSTEMPATH\CodeIgniter.php(498): CodeIgniter\CodeIgniter->createController()
+ 4 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+WARNING - 2025-03-04 09:03:56 --> [DEPRECATED] Creation of dynamic property SysAdmin\Controllers\Nav::$encrypter is deprecated in ROOTPATH\SysAdmin\Controllers\BaseController.php on line 52.
+ 1 ROOTPATH\SysAdmin\Controllers\Nav.php(8): SysAdmin\Controllers\BaseController->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(903): SysAdmin\Controllers\Nav->__construct()
+ 3 SYSTEMPATH\CodeIgniter.php(498): CodeIgniter\CodeIgniter->createController()
+ 4 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+WARNING - 2025-03-04 09:03:56 --> [DEPRECATED] Creation of dynamic property SysAdmin\Controllers\Nav::$nav_mold is deprecated in ROOTPATH\SysAdmin\Controllers\Nav.php on line 9.
+ 1 SYSTEMPATH\CodeIgniter.php(903): SysAdmin\Controllers\Nav->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(498): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+WARNING - 2025-03-04 09:03:56 --> [DEPRECATED] Optional parameter $sarray declared before required parameter $id is implicitly treated as a required parameter in ROOTPATH\SysAdmin\Models\baseInfo\NavModel.php on line 17.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(316): include_once('E:\\web\\XAMPP\\htdocs\\test\\system\\Debug\\Exceptions.php')
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(295): CodeIgniter\Autoloader\Autoloader->includeFile('E:\\web\\XAMPP\\htdocs\\test\\SysAdmin\\Models\\baseInfo\\NavModel.php')
+ 3 SYSTEMPATH\Autoloader\Autoloader.php(271): CodeIgniter\Autoloader\Autoloader->loadInNamespace('SysAdmin\\Models\\baseInfo\\NavModel')
+ 4 ROOTPATH\SysAdmin\Controllers\Nav.php(24): CodeIgniter\Autoloader\Autoloader->loadClass('SysAdmin\\Models\\baseInfo\\NavModel')
+ 5 SYSTEMPATH\CodeIgniter.php(933): SysAdmin\Controllers\Nav->index()
+ 6 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(SysAdmin\Controllers\Nav))
+ 7 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+10 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-03-04 09:03:56 --> CodeIgniter\View\Exceptions\ViewException: Invalid file: "baseInfo/nav.php"
+[Method: GET, Route: xccmssys/nav]
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 39.
+ 1 SYSTEMPATH\View\View.php(212): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('baseInfo/nav.php')
+ 2 SYSTEMPATH\Common.php(1173): CodeIgniter\View\View->render('baseInfo/nav', [], true)
+ 3 ROOTPATH\SysAdmin\Controllers\Nav.php(33): view('baseInfo/nav', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(933): SysAdmin\Controllers\Nav->index()
+ 5 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(SysAdmin\Controllers\Nav))
+ 6 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+DEBUG - 2025-03-04 09:04:50 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2025-03-04 09:04:50 --> [DEPRECATED] Creation of dynamic property SysAdmin\Controllers\Nav::$session is deprecated in ROOTPATH\SysAdmin\Controllers\BaseController.php on line 51.
+ 1 ROOTPATH\SysAdmin\Controllers\Nav.php(8): SysAdmin\Controllers\BaseController->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(903): SysAdmin\Controllers\Nav->__construct()
+ 3 SYSTEMPATH\CodeIgniter.php(498): CodeIgniter\CodeIgniter->createController()
+ 4 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+WARNING - 2025-03-04 09:04:50 --> [DEPRECATED] Creation of dynamic property SysAdmin\Controllers\Nav::$encrypter is deprecated in ROOTPATH\SysAdmin\Controllers\BaseController.php on line 52.
+ 1 ROOTPATH\SysAdmin\Controllers\Nav.php(8): SysAdmin\Controllers\BaseController->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(903): SysAdmin\Controllers\Nav->__construct()
+ 3 SYSTEMPATH\CodeIgniter.php(498): CodeIgniter\CodeIgniter->createController()
+ 4 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+WARNING - 2025-03-04 09:04:50 --> [DEPRECATED] Creation of dynamic property SysAdmin\Controllers\Nav::$nav_mold is deprecated in ROOTPATH\SysAdmin\Controllers\Nav.php on line 9.
+ 1 SYSTEMPATH\CodeIgniter.php(903): SysAdmin\Controllers\Nav->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(498): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+WARNING - 2025-03-04 09:04:50 --> [DEPRECATED] Optional parameter $sarray declared before required parameter $id is implicitly treated as a required parameter in ROOTPATH\SysAdmin\Models\baseInfo\NavModel.php on line 17.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(316): include_once('E:\\web\\XAMPP\\htdocs\\test\\system\\Debug\\Exceptions.php')
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(295): CodeIgniter\Autoloader\Autoloader->includeFile('E:\\web\\XAMPP\\htdocs\\test\\SysAdmin\\Models\\baseInfo\\NavModel.php')
+ 3 SYSTEMPATH\Autoloader\Autoloader.php(271): CodeIgniter\Autoloader\Autoloader->loadInNamespace('SysAdmin\\Models\\baseInfo\\NavModel')
+ 4 ROOTPATH\SysAdmin\Controllers\Nav.php(24): CodeIgniter\Autoloader\Autoloader->loadClass('SysAdmin\\Models\\baseInfo\\NavModel')
+ 5 SYSTEMPATH\CodeIgniter.php(933): SysAdmin\Controllers\Nav->index()
+ 6 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(SysAdmin\Controllers\Nav))
+ 7 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+10 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+DEBUG - 2025-03-04 09:15:22 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2025-03-04 09:15:22 --> [DEPRECATED] Creation of dynamic property SysAdmin\Controllers\Nav::$session is deprecated in ROOTPATH\SysAdmin\Controllers\BaseController.php on line 51.
+ 1 ROOTPATH\SysAdmin\Controllers\Nav.php(8): SysAdmin\Controllers\BaseController->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(903): SysAdmin\Controllers\Nav->__construct()
+ 3 SYSTEMPATH\CodeIgniter.php(498): CodeIgniter\CodeIgniter->createController()
+ 4 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+WARNING - 2025-03-04 09:15:22 --> [DEPRECATED] Creation of dynamic property SysAdmin\Controllers\Nav::$encrypter is deprecated in ROOTPATH\SysAdmin\Controllers\BaseController.php on line 52.
+ 1 ROOTPATH\SysAdmin\Controllers\Nav.php(8): SysAdmin\Controllers\BaseController->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(903): SysAdmin\Controllers\Nav->__construct()
+ 3 SYSTEMPATH\CodeIgniter.php(498): CodeIgniter\CodeIgniter->createController()
+ 4 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+WARNING - 2025-03-04 09:15:22 --> [DEPRECATED] Creation of dynamic property SysAdmin\Controllers\Nav::$nav_mold is deprecated in ROOTPATH\SysAdmin\Controllers\Nav.php on line 9.
+ 1 SYSTEMPATH\CodeIgniter.php(903): SysAdmin\Controllers\Nav->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(498): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+WARNING - 2025-03-04 09:15:22 --> [DEPRECATED] Optional parameter $sarray declared before required parameter $id is implicitly treated as a required parameter in ROOTPATH\SysAdmin\Models\baseInfo\NavModel.php on line 17.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(316): include_once('E:\\web\\XAMPP\\htdocs\\test\\system\\Debug\\Exceptions.php')
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(295): CodeIgniter\Autoloader\Autoloader->includeFile('E:\\web\\XAMPP\\htdocs\\test\\SysAdmin\\Models\\baseInfo\\NavModel.php')
+ 3 SYSTEMPATH\Autoloader\Autoloader.php(271): CodeIgniter\Autoloader\Autoloader->loadInNamespace('SysAdmin\\Models\\baseInfo\\NavModel')
+ 4 ROOTPATH\SysAdmin\Controllers\Nav.php(24): CodeIgniter\Autoloader\Autoloader->loadClass('SysAdmin\\Models\\baseInfo\\NavModel')
+ 5 SYSTEMPATH\CodeIgniter.php(933): SysAdmin\Controllers\Nav->index()
+ 6 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(SysAdmin\Controllers\Nav))
+ 7 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+10 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-03-04 09:15:22 --> ErrorException: Array to string conversion
+[Method: GET, Route: xccmssys/nav]
+in ROOTPATH\SysAdmin\Views\baseInfo\nav.php on line 54.
+ 1 ROOTPATH\SysAdmin\Views\baseInfo\nav.php(54): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Array to string conversion', 'E:\\web\\XAMPP\\htdocs\\test\\SysAdmin\\Views\\baseInfo\\nav.php', 54)
+ 2 SYSTEMPATH\View\View.php(224): include('E:\\web\\XAMPP\\htdocs\\test\\SysAdmin\\Views\\baseInfo\\nav.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1173): CodeIgniter\View\View->render('SysAdmin\\Views\\baseInfo\\nav', [], true)
+ 5 ROOTPATH\SysAdmin\Controllers\Nav.php(33): view('SysAdmin\\Views\\baseInfo\\nav', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): SysAdmin\Controllers\Nav->index()
+ 7 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(SysAdmin\Controllers\Nav))
+ 8 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+DEBUG - 2025-03-04 09:16:10 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2025-03-04 09:16:10 --> [DEPRECATED] Creation of dynamic property SysAdmin\Controllers\Nav::$session is deprecated in ROOTPATH\SysAdmin\Controllers\BaseController.php on line 51.
+ 1 ROOTPATH\SysAdmin\Controllers\Nav.php(8): SysAdmin\Controllers\BaseController->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(903): SysAdmin\Controllers\Nav->__construct()
+ 3 SYSTEMPATH\CodeIgniter.php(498): CodeIgniter\CodeIgniter->createController()
+ 4 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+WARNING - 2025-03-04 09:16:10 --> [DEPRECATED] Creation of dynamic property SysAdmin\Controllers\Nav::$encrypter is deprecated in ROOTPATH\SysAdmin\Controllers\BaseController.php on line 52.
+ 1 ROOTPATH\SysAdmin\Controllers\Nav.php(8): SysAdmin\Controllers\BaseController->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(903): SysAdmin\Controllers\Nav->__construct()
+ 3 SYSTEMPATH\CodeIgniter.php(498): CodeIgniter\CodeIgniter->createController()
+ 4 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+WARNING - 2025-03-04 09:16:10 --> [DEPRECATED] Creation of dynamic property SysAdmin\Controllers\Nav::$nav_mold is deprecated in ROOTPATH\SysAdmin\Controllers\Nav.php on line 9.
+ 1 SYSTEMPATH\CodeIgniter.php(903): SysAdmin\Controllers\Nav->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(498): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+WARNING - 2025-03-04 09:16:10 --> [DEPRECATED] Optional parameter $sarray declared before required parameter $id is implicitly treated as a required parameter in ROOTPATH\SysAdmin\Models\baseInfo\NavModel.php on line 17.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(316): include_once('E:\\web\\XAMPP\\htdocs\\test\\system\\Debug\\Exceptions.php')
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(295): CodeIgniter\Autoloader\Autoloader->includeFile('E:\\web\\XAMPP\\htdocs\\test\\SysAdmin\\Models\\baseInfo\\NavModel.php')
+ 3 SYSTEMPATH\Autoloader\Autoloader.php(271): CodeIgniter\Autoloader\Autoloader->loadInNamespace('SysAdmin\\Models\\baseInfo\\NavModel')
+ 4 ROOTPATH\SysAdmin\Controllers\Nav.php(24): CodeIgniter\Autoloader\Autoloader->loadClass('SysAdmin\\Models\\baseInfo\\NavModel')
+ 5 SYSTEMPATH\CodeIgniter.php(933): SysAdmin\Controllers\Nav->index()
+ 6 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(SysAdmin\Controllers\Nav))
+ 7 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+10 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-03-04 09:16:10 --> ErrorException: Array to string conversion
+[Method: GET, Route: xccmssys/nav]
+in ROOTPATH\SysAdmin\Views\baseInfo\nav.php on line 54.
+ 1 ROOTPATH\SysAdmin\Views\baseInfo\nav.php(54): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Array to string conversion', 'E:\\web\\XAMPP\\htdocs\\test\\SysAdmin\\Views\\baseInfo\\nav.php', 54)
+ 2 SYSTEMPATH\View\View.php(224): include('E:\\web\\XAMPP\\htdocs\\test\\SysAdmin\\Views\\baseInfo\\nav.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1173): CodeIgniter\View\View->render('SysAdmin\\Views\\baseInfo\\nav', [], true)
+ 5 ROOTPATH\SysAdmin\Controllers\Nav.php(33): view('SysAdmin\\Views\\baseInfo\\nav', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): SysAdmin\Controllers\Nav->index()
+ 7 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(SysAdmin\Controllers\Nav))
+ 8 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+DEBUG - 2025-03-04 09:16:11 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2025-03-04 09:16:11 --> [DEPRECATED] Creation of dynamic property SysAdmin\Controllers\Nav::$session is deprecated in ROOTPATH\SysAdmin\Controllers\BaseController.php on line 51.
+ 1 ROOTPATH\SysAdmin\Controllers\Nav.php(8): SysAdmin\Controllers\BaseController->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(903): SysAdmin\Controllers\Nav->__construct()
+ 3 SYSTEMPATH\CodeIgniter.php(498): CodeIgniter\CodeIgniter->createController()
+ 4 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+WARNING - 2025-03-04 09:16:11 --> [DEPRECATED] Creation of dynamic property SysAdmin\Controllers\Nav::$encrypter is deprecated in ROOTPATH\SysAdmin\Controllers\BaseController.php on line 52.
+ 1 ROOTPATH\SysAdmin\Controllers\Nav.php(8): SysAdmin\Controllers\BaseController->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(903): SysAdmin\Controllers\Nav->__construct()
+ 3 SYSTEMPATH\CodeIgniter.php(498): CodeIgniter\CodeIgniter->createController()
+ 4 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+WARNING - 2025-03-04 09:16:11 --> [DEPRECATED] Creation of dynamic property SysAdmin\Controllers\Nav::$nav_mold is deprecated in ROOTPATH\SysAdmin\Controllers\Nav.php on line 9.
+ 1 SYSTEMPATH\CodeIgniter.php(903): SysAdmin\Controllers\Nav->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(498): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+WARNING - 2025-03-04 09:16:11 --> [DEPRECATED] Optional parameter $sarray declared before required parameter $id is implicitly treated as a required parameter in ROOTPATH\SysAdmin\Models\baseInfo\NavModel.php on line 17.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(316): include_once('E:\\web\\XAMPP\\htdocs\\test\\system\\Debug\\Exceptions.php')
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(295): CodeIgniter\Autoloader\Autoloader->includeFile('E:\\web\\XAMPP\\htdocs\\test\\SysAdmin\\Models\\baseInfo\\NavModel.php')
+ 3 SYSTEMPATH\Autoloader\Autoloader.php(271): CodeIgniter\Autoloader\Autoloader->loadInNamespace('SysAdmin\\Models\\baseInfo\\NavModel')
+ 4 ROOTPATH\SysAdmin\Controllers\Nav.php(24): CodeIgniter\Autoloader\Autoloader->loadClass('SysAdmin\\Models\\baseInfo\\NavModel')
+ 5 SYSTEMPATH\CodeIgniter.php(933): SysAdmin\Controllers\Nav->index()
+ 6 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(SysAdmin\Controllers\Nav))
+ 7 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+10 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-03-04 09:16:11 --> ErrorException: Array to string conversion
+[Method: GET, Route: xccmssys/nav]
+in ROOTPATH\SysAdmin\Views\baseInfo\nav.php on line 54.
+ 1 ROOTPATH\SysAdmin\Views\baseInfo\nav.php(54): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Array to string conversion', 'E:\\web\\XAMPP\\htdocs\\test\\SysAdmin\\Views\\baseInfo\\nav.php', 54)
+ 2 SYSTEMPATH\View\View.php(224): include('E:\\web\\XAMPP\\htdocs\\test\\SysAdmin\\Views\\baseInfo\\nav.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1173): CodeIgniter\View\View->render('SysAdmin\\Views\\baseInfo\\nav', [], true)
+ 5 ROOTPATH\SysAdmin\Controllers\Nav.php(33): view('SysAdmin\\Views\\baseInfo\\nav', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): SysAdmin\Controllers\Nav->index()
+ 7 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(SysAdmin\Controllers\Nav))
+ 8 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+DEBUG - 2025-03-04 09:16:12 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2025-03-04 09:16:12 --> [DEPRECATED] Creation of dynamic property SysAdmin\Controllers\Nav::$session is deprecated in ROOTPATH\SysAdmin\Controllers\BaseController.php on line 51.
+ 1 ROOTPATH\SysAdmin\Controllers\Nav.php(8): SysAdmin\Controllers\BaseController->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(903): SysAdmin\Controllers\Nav->__construct()
+ 3 SYSTEMPATH\CodeIgniter.php(498): CodeIgniter\CodeIgniter->createController()
+ 4 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+WARNING - 2025-03-04 09:16:12 --> [DEPRECATED] Creation of dynamic property SysAdmin\Controllers\Nav::$encrypter is deprecated in ROOTPATH\SysAdmin\Controllers\BaseController.php on line 52.
+ 1 ROOTPATH\SysAdmin\Controllers\Nav.php(8): SysAdmin\Controllers\BaseController->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(903): SysAdmin\Controllers\Nav->__construct()
+ 3 SYSTEMPATH\CodeIgniter.php(498): CodeIgniter\CodeIgniter->createController()
+ 4 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+WARNING - 2025-03-04 09:16:12 --> [DEPRECATED] Creation of dynamic property SysAdmin\Controllers\Nav::$nav_mold is deprecated in ROOTPATH\SysAdmin\Controllers\Nav.php on line 9.
+ 1 SYSTEMPATH\CodeIgniter.php(903): SysAdmin\Controllers\Nav->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(498): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+WARNING - 2025-03-04 09:16:12 --> [DEPRECATED] Optional parameter $sarray declared before required parameter $id is implicitly treated as a required parameter in ROOTPATH\SysAdmin\Models\baseInfo\NavModel.php on line 17.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(316): include_once('E:\\web\\XAMPP\\htdocs\\test\\system\\Debug\\Exceptions.php')
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(295): CodeIgniter\Autoloader\Autoloader->includeFile('E:\\web\\XAMPP\\htdocs\\test\\SysAdmin\\Models\\baseInfo\\NavModel.php')
+ 3 SYSTEMPATH\Autoloader\Autoloader.php(271): CodeIgniter\Autoloader\Autoloader->loadInNamespace('SysAdmin\\Models\\baseInfo\\NavModel')
+ 4 ROOTPATH\SysAdmin\Controllers\Nav.php(24): CodeIgniter\Autoloader\Autoloader->loadClass('SysAdmin\\Models\\baseInfo\\NavModel')
+ 5 SYSTEMPATH\CodeIgniter.php(933): SysAdmin\Controllers\Nav->index()
+ 6 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(SysAdmin\Controllers\Nav))
+ 7 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+10 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-03-04 09:16:12 --> ErrorException: Array to string conversion
+[Method: GET, Route: xccmssys/nav]
+in ROOTPATH\SysAdmin\Views\baseInfo\nav.php on line 54.
+ 1 ROOTPATH\SysAdmin\Views\baseInfo\nav.php(54): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Array to string conversion', 'E:\\web\\XAMPP\\htdocs\\test\\SysAdmin\\Views\\baseInfo\\nav.php', 54)
+ 2 SYSTEMPATH\View\View.php(224): include('E:\\web\\XAMPP\\htdocs\\test\\SysAdmin\\Views\\baseInfo\\nav.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1173): CodeIgniter\View\View->render('SysAdmin\\Views\\baseInfo\\nav', [], true)
+ 5 ROOTPATH\SysAdmin\Controllers\Nav.php(33): view('SysAdmin\\Views\\baseInfo\\nav', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): SysAdmin\Controllers\Nav->index()
+ 7 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(SysAdmin\Controllers\Nav))
+ 8 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+DEBUG - 2025-03-04 09:16:13 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2025-03-04 09:16:13 --> [DEPRECATED] Creation of dynamic property SysAdmin\Controllers\Nav::$session is deprecated in ROOTPATH\SysAdmin\Controllers\BaseController.php on line 51.
+ 1 ROOTPATH\SysAdmin\Controllers\Nav.php(8): SysAdmin\Controllers\BaseController->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(903): SysAdmin\Controllers\Nav->__construct()
+ 3 SYSTEMPATH\CodeIgniter.php(498): CodeIgniter\CodeIgniter->createController()
+ 4 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+WARNING - 2025-03-04 09:16:13 --> [DEPRECATED] Creation of dynamic property SysAdmin\Controllers\Nav::$encrypter is deprecated in ROOTPATH\SysAdmin\Controllers\BaseController.php on line 52.
+ 1 ROOTPATH\SysAdmin\Controllers\Nav.php(8): SysAdmin\Controllers\BaseController->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(903): SysAdmin\Controllers\Nav->__construct()
+ 3 SYSTEMPATH\CodeIgniter.php(498): CodeIgniter\CodeIgniter->createController()
+ 4 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+WARNING - 2025-03-04 09:16:13 --> [DEPRECATED] Creation of dynamic property SysAdmin\Controllers\Nav::$nav_mold is deprecated in ROOTPATH\SysAdmin\Controllers\Nav.php on line 9.
+ 1 SYSTEMPATH\CodeIgniter.php(903): SysAdmin\Controllers\Nav->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(498): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+WARNING - 2025-03-04 09:16:13 --> [DEPRECATED] Optional parameter $sarray declared before required parameter $id is implicitly treated as a required parameter in ROOTPATH\SysAdmin\Models\baseInfo\NavModel.php on line 17.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(316): include_once('E:\\web\\XAMPP\\htdocs\\test\\system\\Debug\\Exceptions.php')
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(295): CodeIgniter\Autoloader\Autoloader->includeFile('E:\\web\\XAMPP\\htdocs\\test\\SysAdmin\\Models\\baseInfo\\NavModel.php')
+ 3 SYSTEMPATH\Autoloader\Autoloader.php(271): CodeIgniter\Autoloader\Autoloader->loadInNamespace('SysAdmin\\Models\\baseInfo\\NavModel')
+ 4 ROOTPATH\SysAdmin\Controllers\Nav.php(24): CodeIgniter\Autoloader\Autoloader->loadClass('SysAdmin\\Models\\baseInfo\\NavModel')
+ 5 SYSTEMPATH\CodeIgniter.php(933): SysAdmin\Controllers\Nav->index()
+ 6 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(SysAdmin\Controllers\Nav))
+ 7 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+10 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-03-04 09:16:13 --> ErrorException: Array to string conversion
+[Method: GET, Route: xccmssys/nav]
+in ROOTPATH\SysAdmin\Views\baseInfo\nav.php on line 54.
+ 1 ROOTPATH\SysAdmin\Views\baseInfo\nav.php(54): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Array to string conversion', 'E:\\web\\XAMPP\\htdocs\\test\\SysAdmin\\Views\\baseInfo\\nav.php', 54)
+ 2 SYSTEMPATH\View\View.php(224): include('E:\\web\\XAMPP\\htdocs\\test\\SysAdmin\\Views\\baseInfo\\nav.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1173): CodeIgniter\View\View->render('SysAdmin\\Views\\baseInfo\\nav', [], true)
+ 5 ROOTPATH\SysAdmin\Controllers\Nav.php(33): view('SysAdmin\\Views\\baseInfo\\nav', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): SysAdmin\Controllers\Nav->index()
+ 7 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(SysAdmin\Controllers\Nav))
+ 8 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+DEBUG - 2025-03-04 09:25:06 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2025-03-04 09:25:06 --> [DEPRECATED] Creation of dynamic property SysAdmin\Controllers\Nav::$session is deprecated in ROOTPATH\SysAdmin\Controllers\BaseController.php on line 51.
+ 1 ROOTPATH\SysAdmin\Controllers\Nav.php(8): SysAdmin\Controllers\BaseController->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(903): SysAdmin\Controllers\Nav->__construct()
+ 3 SYSTEMPATH\CodeIgniter.php(498): CodeIgniter\CodeIgniter->createController()
+ 4 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+WARNING - 2025-03-04 09:25:06 --> [DEPRECATED] Creation of dynamic property SysAdmin\Controllers\Nav::$encrypter is deprecated in ROOTPATH\SysAdmin\Controllers\BaseController.php on line 52.
+ 1 ROOTPATH\SysAdmin\Controllers\Nav.php(8): SysAdmin\Controllers\BaseController->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(903): SysAdmin\Controllers\Nav->__construct()
+ 3 SYSTEMPATH\CodeIgniter.php(498): CodeIgniter\CodeIgniter->createController()
+ 4 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+WARNING - 2025-03-04 09:25:06 --> [DEPRECATED] Creation of dynamic property SysAdmin\Controllers\Nav::$nav_mold is deprecated in ROOTPATH\SysAdmin\Controllers\Nav.php on line 9.
+ 1 SYSTEMPATH\CodeIgniter.php(903): SysAdmin\Controllers\Nav->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(498): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+WARNING - 2025-03-04 09:25:06 --> [DEPRECATED] Optional parameter $sarray declared before required parameter $id is implicitly treated as a required parameter in ROOTPATH\SysAdmin\Models\baseInfo\NavModel.php on line 17.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(316): include_once('E:\\web\\XAMPP\\htdocs\\test\\system\\Debug\\Exceptions.php')
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(295): CodeIgniter\Autoloader\Autoloader->includeFile('E:\\web\\XAMPP\\htdocs\\test\\SysAdmin\\Models\\baseInfo\\NavModel.php')
+ 3 SYSTEMPATH\Autoloader\Autoloader.php(271): CodeIgniter\Autoloader\Autoloader->loadInNamespace('SysAdmin\\Models\\baseInfo\\NavModel')
+ 4 ROOTPATH\SysAdmin\Controllers\Nav.php(24): CodeIgniter\Autoloader\Autoloader->loadClass('SysAdmin\\Models\\baseInfo\\NavModel')
+ 5 SYSTEMPATH\CodeIgniter.php(933): SysAdmin\Controllers\Nav->index()
+ 6 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(SysAdmin\Controllers\Nav))
+ 7 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+10 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-03-04 09:25:06 --> ErrorException: Array to string conversion
+[Method: GET, Route: xccmssys/nav]
+in ROOTPATH\SysAdmin\Views\baseInfo\nav.php on line 55.
+ 1 ROOTPATH\SysAdmin\Views\baseInfo\nav.php(55): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Array to string conversion', 'E:\\web\\XAMPP\\htdocs\\test\\SysAdmin\\Views\\baseInfo\\nav.php', 55)
+ 2 SYSTEMPATH\View\View.php(224): include('E:\\web\\XAMPP\\htdocs\\test\\SysAdmin\\Views\\baseInfo\\nav.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1173): CodeIgniter\View\View->render('SysAdmin\\Views\\baseInfo\\nav', [], true)
+ 5 ROOTPATH\SysAdmin\Controllers\Nav.php(33): view('SysAdmin\\Views\\baseInfo\\nav', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): SysAdmin\Controllers\Nav->index()
+ 7 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(SysAdmin\Controllers\Nav))
+ 8 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+DEBUG - 2025-03-04 09:25:07 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2025-03-04 09:25:07 --> [DEPRECATED] Creation of dynamic property SysAdmin\Controllers\Nav::$session is deprecated in ROOTPATH\SysAdmin\Controllers\BaseController.php on line 51.
+ 1 ROOTPATH\SysAdmin\Controllers\Nav.php(8): SysAdmin\Controllers\BaseController->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(903): SysAdmin\Controllers\Nav->__construct()
+ 3 SYSTEMPATH\CodeIgniter.php(498): CodeIgniter\CodeIgniter->createController()
+ 4 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+WARNING - 2025-03-04 09:25:07 --> [DEPRECATED] Creation of dynamic property SysAdmin\Controllers\Nav::$encrypter is deprecated in ROOTPATH\SysAdmin\Controllers\BaseController.php on line 52.
+ 1 ROOTPATH\SysAdmin\Controllers\Nav.php(8): SysAdmin\Controllers\BaseController->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(903): SysAdmin\Controllers\Nav->__construct()
+ 3 SYSTEMPATH\CodeIgniter.php(498): CodeIgniter\CodeIgniter->createController()
+ 4 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+WARNING - 2025-03-04 09:25:07 --> [DEPRECATED] Creation of dynamic property SysAdmin\Controllers\Nav::$nav_mold is deprecated in ROOTPATH\SysAdmin\Controllers\Nav.php on line 9.
+ 1 SYSTEMPATH\CodeIgniter.php(903): SysAdmin\Controllers\Nav->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(498): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+WARNING - 2025-03-04 09:25:07 --> [DEPRECATED] Optional parameter $sarray declared before required parameter $id is implicitly treated as a required parameter in ROOTPATH\SysAdmin\Models\baseInfo\NavModel.php on line 17.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(316): include_once('E:\\web\\XAMPP\\htdocs\\test\\system\\Debug\\Exceptions.php')
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(295): CodeIgniter\Autoloader\Autoloader->includeFile('E:\\web\\XAMPP\\htdocs\\test\\SysAdmin\\Models\\baseInfo\\NavModel.php')
+ 3 SYSTEMPATH\Autoloader\Autoloader.php(271): CodeIgniter\Autoloader\Autoloader->loadInNamespace('SysAdmin\\Models\\baseInfo\\NavModel')
+ 4 ROOTPATH\SysAdmin\Controllers\Nav.php(24): CodeIgniter\Autoloader\Autoloader->loadClass('SysAdmin\\Models\\baseInfo\\NavModel')
+ 5 SYSTEMPATH\CodeIgniter.php(933): SysAdmin\Controllers\Nav->index()
+ 6 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(SysAdmin\Controllers\Nav))
+ 7 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+10 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-03-04 09:25:07 --> ErrorException: Array to string conversion
+[Method: GET, Route: xccmssys/nav]
+in ROOTPATH\SysAdmin\Views\baseInfo\nav.php on line 55.
+ 1 ROOTPATH\SysAdmin\Views\baseInfo\nav.php(55): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Array to string conversion', 'E:\\web\\XAMPP\\htdocs\\test\\SysAdmin\\Views\\baseInfo\\nav.php', 55)
+ 2 SYSTEMPATH\View\View.php(224): include('E:\\web\\XAMPP\\htdocs\\test\\SysAdmin\\Views\\baseInfo\\nav.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1173): CodeIgniter\View\View->render('SysAdmin\\Views\\baseInfo\\nav', [], true)
+ 5 ROOTPATH\SysAdmin\Controllers\Nav.php(33): view('SysAdmin\\Views\\baseInfo\\nav', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): SysAdmin\Controllers\Nav->index()
+ 7 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(SysAdmin\Controllers\Nav))
+ 8 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+DEBUG - 2025-03-04 09:25:08 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2025-03-04 09:25:08 --> [DEPRECATED] Creation of dynamic property SysAdmin\Controllers\Nav::$session is deprecated in ROOTPATH\SysAdmin\Controllers\BaseController.php on line 51.
+ 1 ROOTPATH\SysAdmin\Controllers\Nav.php(8): SysAdmin\Controllers\BaseController->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(903): SysAdmin\Controllers\Nav->__construct()
+ 3 SYSTEMPATH\CodeIgniter.php(498): CodeIgniter\CodeIgniter->createController()
+ 4 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+WARNING - 2025-03-04 09:25:08 --> [DEPRECATED] Creation of dynamic property SysAdmin\Controllers\Nav::$encrypter is deprecated in ROOTPATH\SysAdmin\Controllers\BaseController.php on line 52.
+ 1 ROOTPATH\SysAdmin\Controllers\Nav.php(8): SysAdmin\Controllers\BaseController->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(903): SysAdmin\Controllers\Nav->__construct()
+ 3 SYSTEMPATH\CodeIgniter.php(498): CodeIgniter\CodeIgniter->createController()
+ 4 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+WARNING - 2025-03-04 09:25:08 --> [DEPRECATED] Creation of dynamic property SysAdmin\Controllers\Nav::$nav_mold is deprecated in ROOTPATH\SysAdmin\Controllers\Nav.php on line 9.
+ 1 SYSTEMPATH\CodeIgniter.php(903): SysAdmin\Controllers\Nav->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(498): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+WARNING - 2025-03-04 09:25:08 --> [DEPRECATED] Optional parameter $sarray declared before required parameter $id is implicitly treated as a required parameter in ROOTPATH\SysAdmin\Models\baseInfo\NavModel.php on line 17.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(316): include_once('E:\\web\\XAMPP\\htdocs\\test\\system\\Debug\\Exceptions.php')
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(295): CodeIgniter\Autoloader\Autoloader->includeFile('E:\\web\\XAMPP\\htdocs\\test\\SysAdmin\\Models\\baseInfo\\NavModel.php')
+ 3 SYSTEMPATH\Autoloader\Autoloader.php(271): CodeIgniter\Autoloader\Autoloader->loadInNamespace('SysAdmin\\Models\\baseInfo\\NavModel')
+ 4 ROOTPATH\SysAdmin\Controllers\Nav.php(24): CodeIgniter\Autoloader\Autoloader->loadClass('SysAdmin\\Models\\baseInfo\\NavModel')
+ 5 SYSTEMPATH\CodeIgniter.php(933): SysAdmin\Controllers\Nav->index()
+ 6 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(SysAdmin\Controllers\Nav))
+ 7 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+10 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-03-04 09:25:08 --> ErrorException: Array to string conversion
+[Method: GET, Route: xccmssys/nav]
+in ROOTPATH\SysAdmin\Views\baseInfo\nav.php on line 55.
+ 1 ROOTPATH\SysAdmin\Views\baseInfo\nav.php(55): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Array to string conversion', 'E:\\web\\XAMPP\\htdocs\\test\\SysAdmin\\Views\\baseInfo\\nav.php', 55)
+ 2 SYSTEMPATH\View\View.php(224): include('E:\\web\\XAMPP\\htdocs\\test\\SysAdmin\\Views\\baseInfo\\nav.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1173): CodeIgniter\View\View->render('SysAdmin\\Views\\baseInfo\\nav', [], true)
+ 5 ROOTPATH\SysAdmin\Controllers\Nav.php(33): view('SysAdmin\\Views\\baseInfo\\nav', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): SysAdmin\Controllers\Nav->index()
+ 7 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(SysAdmin\Controllers\Nav))
+ 8 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+DEBUG - 2025-03-04 09:25:14 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2025-03-04 09:25:14 --> [DEPRECATED] Creation of dynamic property SysAdmin\Controllers\Nav::$session is deprecated in ROOTPATH\SysAdmin\Controllers\BaseController.php on line 51.
+ 1 ROOTPATH\SysAdmin\Controllers\Nav.php(8): SysAdmin\Controllers\BaseController->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(903): SysAdmin\Controllers\Nav->__construct()
+ 3 SYSTEMPATH\CodeIgniter.php(498): CodeIgniter\CodeIgniter->createController()
+ 4 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+WARNING - 2025-03-04 09:25:14 --> [DEPRECATED] Creation of dynamic property SysAdmin\Controllers\Nav::$encrypter is deprecated in ROOTPATH\SysAdmin\Controllers\BaseController.php on line 52.
+ 1 ROOTPATH\SysAdmin\Controllers\Nav.php(8): SysAdmin\Controllers\BaseController->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(903): SysAdmin\Controllers\Nav->__construct()
+ 3 SYSTEMPATH\CodeIgniter.php(498): CodeIgniter\CodeIgniter->createController()
+ 4 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+WARNING - 2025-03-04 09:25:14 --> [DEPRECATED] Creation of dynamic property SysAdmin\Controllers\Nav::$nav_mold is deprecated in ROOTPATH\SysAdmin\Controllers\Nav.php on line 9.
+ 1 SYSTEMPATH\CodeIgniter.php(903): SysAdmin\Controllers\Nav->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(498): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+WARNING - 2025-03-04 09:25:14 --> [DEPRECATED] Optional parameter $sarray declared before required parameter $id is implicitly treated as a required parameter in ROOTPATH\SysAdmin\Models\baseInfo\NavModel.php on line 17.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(316): include_once('E:\\web\\XAMPP\\htdocs\\test\\system\\Debug\\Exceptions.php')
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(295): CodeIgniter\Autoloader\Autoloader->includeFile('E:\\web\\XAMPP\\htdocs\\test\\SysAdmin\\Models\\baseInfo\\NavModel.php')
+ 3 SYSTEMPATH\Autoloader\Autoloader.php(271): CodeIgniter\Autoloader\Autoloader->loadInNamespace('SysAdmin\\Models\\baseInfo\\NavModel')
+ 4 ROOTPATH\SysAdmin\Controllers\Nav.php(24): CodeIgniter\Autoloader\Autoloader->loadClass('SysAdmin\\Models\\baseInfo\\NavModel')
+ 5 SYSTEMPATH\CodeIgniter.php(933): SysAdmin\Controllers\Nav->index()
+ 6 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(SysAdmin\Controllers\Nav))
+ 7 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+10 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
